@@ -1,0 +1,81 @@
+server:
+  tomcat:
+    basedir: /data/apps/temp
+
+#_应用名设置，运行环境设置
+spring:
+  application:
+    name: rabbit-gateway
+  profiles:
+    active: local
+  # sleuth配置
+  zipkin:
+    rabbitmq:
+      queue: zipkin
+  sleuth:
+    sampler:
+      percentage: 0.2
+
+
+zuul:
+  #解决上传文件,文件名乱码(???), 这个方案进入swagger-ui.html会报错，通过在路径前加/zuul解决
+  #  servlet-path: /
+  ribbon:
+    eager-load:
+      enabled: true
+      clients: rabbit-auth, rabbit-ucenter-server
+  ignoredServices: '*'
+  #防止重定项到上游服务器
+  add-host-header: true
+  host:
+    connect-timeout-millis: 30000
+    socket-timeout-millis: 30000
+  routes:
+    ### 授权中心
+    rabbit-auth-server:
+      serviceId: rabbit-auth-server
+      path: /auth/**
+      stripPrefix: false
+      sensitiveHeaders:
+    ### 用户中心
+    rabbit-ucenter-server:
+      path: /ucenter/**
+      serviceId: rabbit-ucenter-server
+      stripPrefix: false
+      sensitiveHeaders:
+
+#----------------------------------------------------------------------------------
+
+  ratelimit:
+    key-prefix: rabbit-ratelimite
+    enabled: true
+    repository: REDIS
+    behind-proxy: true
+    policies:
+      rabbit-upms-service:
+        limit: 100
+        quota: 100
+        refresh-interval: 3
+
+#_需要路由的url
+urls:
+  anon:
+  - /auth/**
+  - /*/rpc/**
+  - /*/static/**
+  - /*/upload/**
+  - /*/resources/**d
+  - /swagger-resources/**
+  - /swagger-ui.html
+  - /swagger/api-docsx
+  - /*/v2/api-docs
+
+#_路由的目标地址（将所有的urls路由到auth上）
+rabbit:
+  auth:
+    server: /auth
+    clientId: rabbit
+    clientSecret: rabbit!@#rabbit
+
+logging:
+  config: classpath:logback.xml

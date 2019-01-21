@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <!--项目基本信息说明 -->
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>rabbit-gateway</artifactId>
+    <version>1.0.0</version>
+    <packaging>jar</packaging>
+    <name>rabbit-gateway</name>
+    <description>服务网关</description>
+
+    <parent>
+        <groupId>com.rabbit.cloud</groupId>
+        <artifactId>rabbit-cloud</artifactId>
+        <version>1.0.0</version>
+    </parent>
+
+    <dependencies>
+        <!--获取浏览器详细信息的依赖：UserAgentUtils-->
+        <dependency>
+            <groupId>nl.bitwalker</groupId>
+            <artifactId>UserAgentUtils</artifactId>
+            <version>1.2.4</version>
+        </dependency>
+        <!--zuul组件，这个组件其实功能很多，比如反向代理，负载均衡还有权限控制等功能-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-zuul</artifactId>
+        </dependency>
+        <!--该包实现了在Zuul对每个服务进行限流-->
+        <dependency>
+            <groupId>com.marcosbarbero.cloud</groupId>
+            <artifactId>spring-cloud-zuul-ratelimit</artifactId>
+            <version>1.5.0.RELEASE</version>
+        </dependency>
+        <!--Redis存储、缓存-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+        </dependency>
+        <!--Swagger UI：生成API说明文档，提供友好的界面支持-->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <version>2.9.2</version>
+        </dependency>
+        <!--oauth2.0：提供第三方登录支持-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-oauth2</artifactId>
+        </dependency>
+        <!--rabbitMQ：RabbitMQ是一个在AMQP基础上完成的，可复用的企业消息系统。他遵循Mozilla Public License开源协议
+        MQ是消费-生产者模型的一个典型的代表，一端往消息队列中不断写入消息，而另一端则可以读取或者订阅队列中的消息。
+        MQ和JMS类似，但不同的是JMS是SUN JAVA消息中间件服务的一个标准和API定义，而MQ则是遵循了AMQP协议的具体实现和产品-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-amqp</artifactId>
+        </dependency>
+        <!--auth核心组件-->
+        <dependency>
+            <groupId>com.rabbit.auth.cloud</groupId>
+            <artifactId>rabbit-auth-core</artifactId>
+            <version>1.0.0</version>
+            <scope>compile</scope>
+        </dependency>
+        <!--rabbit-common公共组件-->
+        <dependency>
+            <groupId>com.rabbit.cloud</groupId>
+            <artifactId>rabbit-common</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <!--rabbit-feign-ucenter-->
+        <dependency>
+            <groupId>com.rabbit.feign.cloud</groupId>
+            <artifactId>rabbit-feign-ucenter</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <!--rabbit-feign-auth-->
+        <dependency>
+            <groupId>com.rabbit.feign.cloud</groupId>
+            <artifactId>rabbit-feign-auth</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <!--项目发布插件-->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-deploy-plugin</artifactId>
+                <configuration>
+                    <!--不发布测试模块-->
+                    <skip>true</skip>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

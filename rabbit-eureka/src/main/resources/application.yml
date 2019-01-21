@@ -1,0 +1,31 @@
+#_项目端口设置
+server:
+  port: 9300
+
+#_应用名设置
+spring:
+  application:
+    name: rabbit-eureka-server
+#_集成SpringSecurity安全认证，设置访问服务中心的密码
+security:
+  user:
+    name: rabbit
+    password: rabbit
+#-----------------------------------------------------------------------------
+#_Eureka参数配置
+eureka:
+  client:
+    fetch-registry: false #_此客户端（这个项目自身）是否获取eureka服务器注册表上的注册信息
+    register-with-eureka: false #_是否将自身（这个项目自身）注册到服务中心上
+    #_指定服务注册中心地址，类型为 HashMap，并设置有一组默认值，默认的Key为 defaultZone；默认的Value为 http://localhost:8761/eureka ，
+    #如果服务注册中心为高可用集群时，多个注册中心地址以逗号分隔。如果服务注册中心加入了安全验证，这里配置的地址格式为：如果服务注册中
+    #心加入了安全验证，这里配置的地址格式为： http://<username>:<password>@localhost:8761/eureka 其中 <username> 为安全校验的用户名；<password> 为该用户的密码
+    service-url:
+      defaultZonr: http://${eureka.instance.hostname}:${server.port}/eureka/
+  instance:
+    hostname: localhost #_设置当前实例的主机名称
+  server:
+    #_关闭注册中心的保护机制，Eureka 会统计15分钟之内心跳失败的比例低于85%将会触发保护机制，不剔除服务提供者；如果关闭，服务注册中心将不可用的实例正确剔除
+    enable-self-preservation: false
+    #_每隔6s清理一次服务列表(当其注册表里服务因为网络或其他原因出现故障而关停时，Eureka不会剔除服务注册，而是等待其修复。这是AP的一种实现)
+    eviction-interval-timer-in-ms: 60000

@@ -1,0 +1,29 @@
+#_项目端口设置
+server:
+  port: 9199
+
+#_自定义配置，启动时在WebConfig中加载
+rabbit:
+  gateway:
+    #服务扩展数量,生产环境无需指定(默认为0)
+    routeNum: 1
+    #权限拦截开关
+    permissionIntercept: true
+
+#----------------------------------------------------------------------------------------------------------
+eureka:
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ipAddress}:${server.port}
+    # ip-address:
+    lease-renewal-interval-in-seconds: 3 #eureka client发送心跳给server端的频率，默认30秒
+    lease-expiration-duration-in-seconds: 10 #eureka server至上一次收到client的心跳之后，等待下一次心跳的超时时间，默认为90秒(该值至少应该大于leaseRenewalIntervalInSeconds)
+  client:
+    serviceUrl:
+      defaultZone: http://rabbit:rabbit@127.0.0.1:9300/eureka
+    registry-fetch-interval-seconds: 5 #eureka client间隔多久去拉取服务注册信息，默认为30秒；如果要迅速获取服务注册状态，可以缩小该值
+
+
+endpoints:
+  health:
+    enabled: false

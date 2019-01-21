@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <!--项目基础信息说明-->
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.rabbit.cloud</groupId>
+    <artifactId>rabbit-eureka</artifactId>
+    <version>1.0.0</version>
+    <packaging>jar</packaging>
+    <name>rabbit-eureka</name>
+    <description>服务注册中心</description>
+
+    <parent>
+        <groupId>com.rabbit.cloud</groupId>
+        <artifactId>rabbit-cloud</artifactId>
+        <version>1.0.0</version>
+    </parent>
+
+    <!--依赖管理-->
+    <dependencies>
+        <!--Eureka服务注册中心-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-eureka-server</artifactId>
+        </dependency>
+        <!--Spring Cloud Security集成CAS （单点登录）对微服务认证-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-security</artifactId>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <!--发布插件-->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-deploy-plugin</artifactId>
+                <configuration>
+                    <!--跳过测试模块，不发布-->
+                    <skip>true</skip>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

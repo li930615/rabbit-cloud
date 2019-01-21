@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/rabbit-cloud.iml" filepath="$PROJECT_DIR$/rabbit-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbit-common/rabbit-common.iml" filepath="$PROJECT_DIR$/rabbit-common/rabbit-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbit-config-server/rabbit-config-server.iml" filepath="$PROJECT_DIR$/rabbit-config-server/rabbit-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbit-eureka/rabbit-eureka.iml" filepath="$PROJECT_DIR$/rabbit-eureka/rabbit-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbit-gateway/rabbit-gateway.iml" filepath="$PROJECT_DIR$/rabbit-gateway/rabbit-gateway.iml" />
+    </modules>
+  </component>
+</project>
