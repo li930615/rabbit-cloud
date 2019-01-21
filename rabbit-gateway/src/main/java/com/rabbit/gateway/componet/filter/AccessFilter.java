@@ -33,7 +33,7 @@ import java.util.Map;
 
 /**
  * @ClassName AccessFilter
- * @Description TODO
+ * @Description API网关入口
  * @Author LZQ
  * @Date 2019/1/20 20:34
  **/
@@ -58,18 +58,22 @@ public class AccessFilter extends ZuulFilter {
     private final RouteLocator routeLocator;
     private AntPathMatcher antPathMatcher = new AntPathMatcher();
 
+    /*该类型的filters在请求路由到目标源服务之前执行：一般用来实现Authentication、选择目标源服务地址等*/
     public String filterType() {
         return "pre";
     }
 
+    /*表示该过滤器的优先级别（数字越大，优先级越低）*/
     public int filterOrder() {
         return -2;
     }
 
+    /*代表该过滤器是否生效（返回true为生效）*/
     public boolean shouldFilter() {
         return true;
     }
 
+    /*构造方法（定位服务源地址）*/
     public AccessFilter(RouteLocator routeLocator) {
         this.routeLocator = routeLocator;
     }
@@ -77,20 +81,22 @@ public class AccessFilter extends ZuulFilter {
     public void loginTest(HttpServletRequest request) {
     }
 
+    /*逻辑处理*/
     public Object run() {
         long startTimeMillis = System.currentTimeMillis();
+        //获取当前请求的上下文
         RequestContext ctx = RequestContext.getCurrentContext();
         ctx.getResponse().setContentType("text/html;charset=UTF-8");
         HttpServletRequest request = ctx.getRequest();
         HttpServletResponse response = ctx.getResponse();
-
+        //在上下文中加入已经通过网关验证的信息
         ctx.addZuulRequestHeader("is_after_gateway", "true");
         ctx.set("startTime", Long.valueOf(startTimeMillis));
 
         ctx.addZuulRequestHeader("request_protocol", request.isSecure() ? "https://" : "http://");
-
+        //根据请求的URI路由到服务源
         Route route = this.routeLocator.getMatchingRoute(request.getRequestURI());
-
+        //
         if (!checkServerState(ctx, route.getId())) {
             return null;
         }
@@ -102,7 +108,7 @@ public class AccessFilter extends ZuulFilter {
         }
 
         String token = (String) ctx.get("Authorization");
-
+        //如果是退出系统操作，则删除登录验证的缓存token
         if (requestURI.equals("/auth/sso/logout")) {
             this.authService.delSsoVerifyCache(token);
         }
@@ -117,11 +123,14 @@ public class AccessFilter extends ZuulFilter {
         if (StringUtils.isBlank(token)) {
             errMsg.append("Authorization is null");
         } else {
+            //解析token携带的认证信息
             authorization = parseAuthorization(token);
             if (null == authorization) {
                 errMsg.append("authorization parse fail");
             } else {
+                //获取认证类型
                 AuthType authType = authorization.getAuthType();
+                //登录验证
                 if (AuthType.SSO == authType) {
                     R r = this.authService.ssoVerify(token);
                     if (!r.success()) {
@@ -134,6 +143,7 @@ public class AccessFilter extends ZuulFilter {
 
         }
 
+        /*返回验证信息*/
         if (StringUtils.isNotBlank(errMsg.toString())) {
             ctx.setSendZuulResponse(false);
             if (isAjax(request)) {
@@ -158,13 +168,15 @@ public class AccessFilter extends ZuulFilter {
         Map ssoTokenMap = (Map) authorization.getAuthToken();
         switch (authType) {
             case SSO:
+                /*当前请求为登录请求时，将当前用户信息放入网关请求中*/
                 CurrentUser currentUser = new Gson().fromJson(ssoTokenMap.get("user").toString(), CurrentUser.class);
                 ctx.addZuulRequestHeader("current_user", JSON.toJSONString(currentUser));
-
-                if ((!hasPermission) && (this.permissionService.ssoHasPermission(route, currentUser)))
+                //如果有登录权限则返回true
+                if (!hasPermission && (this.permissionService.ssoHasPermission(route, currentUser)))
                     hasPermission = true;
                 break;
             case API:
+                /*如果为API接口调用，则根据路由地址和appId判断该请求是否有权限*/
                 String appId = (String) ssoTokenMap.get("appId");
                 if (this.permissionService.apiHasPermission(route, appId))
                     hasPermission = true;
@@ -190,8 +202,10 @@ public class AccessFilter extends ZuulFilter {
         return null;
     }
 
+    /*解析认证信息*/
     private Authorization parseAuthorization(String token) {
         Authorization authorization = null;
+        /*给用户加入一个自定义的“证书”*/
         Claims claims = SecurityConst.parseJwt(token);
         if (claims != null) {
             AuthType authType = new Gson().fromJson(claims.get("auth_type").toString(), AuthType.class);
@@ -216,6 +230,7 @@ public class AccessFilter extends ZuulFilter {
         return false;
     }
 
+    /*获取配置文件中需要路由的url*/
     private boolean isMatCh(String url) {
         List<String> anonList = this.filterUrlsPropertiesConfig.getAnon();
         for (String anon : anonList) {
@@ -226,10 +241,11 @@ public class AccessFilter extends ZuulFilter {
         return false;
     }
 
+    /*确定服务源状态是否正常*/
     private boolean checkServerState(RequestContext ctx, String serverId) {
         String serverStateParm = (String) ctx.get("SERVER_STATE");
-        Boolean serverState = (Boolean) AuthorizationFilter.SERVER_STATE.get(serverId);
-
+        Boolean serverState = AuthorizationFilter.SERVER_STATE.get(serverId);
+        //服务源状态为空时返回true
         if (null == serverState) {
             serverState = Boolean.valueOf(true);
         }
@@ -240,6 +256,7 @@ public class AccessFilter extends ZuulFilter {
             serverState = Boolean.valueOf(false);
             AuthorizationFilter.SERVER_STATE.put(serverId, serverState);
         }
+        //
         if (!serverState.booleanValue()) {
             ctx.setSendZuulResponse(false);
             JSONObject jsonObj = new JSONObject();

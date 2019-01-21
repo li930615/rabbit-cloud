@@ -19,7 +19,7 @@ import java.util.LinkedHashMap;
  * @Date 2019/1/20 20:00
  **/
 /*在目前的应用中，zuul主要用来做如下几件事情：
-动态路由：APP、web网站通过zuul来访问不同的服务提供方，且与ribbon结合，还可以负载均衡的路由到同一个应用不同的实例中。
+动态路由：APP、web网站通过zuul来访问不同的服务提供方，且与ribbon结合，还可以路由到同一个应用不同的实例中。
 安全认证：zuul作为互联网服务架构中的网关，可以用来校验非法访问、授予token、校验token等。
 限流：zuul通过记录每种请求的类型来达到限制访问过多导致服务down掉的目的。
 静态响应处理：直接在zuul就处理一些请求，返回响应内容，不转发到微服务内部。
@@ -42,6 +42,7 @@ public class DynamicRouteLocator extends DiscoveryClientRouteLocator {
 
     protected LinkedHashMap<String, ZuulProperties.ZuulRoute> locateRoutes() {
         LinkedHashMap routesMap = new LinkedHashMap();
+        //从配置文件中获取路由地址迭代器
         Iterator var2 = this.zuulProperties.getRoutes().values().iterator();
 
         routesMap.putAll(super.locateRoutes());
@@ -52,6 +53,7 @@ public class DynamicRouteLocator extends DiscoveryClientRouteLocator {
             for (int i = 1; i <= this.routeNum; i++) {
                 ZuulProperties.ZuulRoute newZuulRoute = new ZuulProperties.ZuulRoute();
                 BeanUtil.copyProperties(route, newZuulRoute);
+                //路由转换规则
                 newZuulRoute.setPath(routePath.substring(0, routePath.length() - 3) + "-" + i + "/**");
                 newZuulRoute.setId(route.getId() + "-" + i);
                 newZuulRoute.setServiceId(route.getServiceId() + "-" + i);

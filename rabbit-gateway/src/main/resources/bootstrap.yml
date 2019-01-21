@@ -47,14 +47,21 @@ zuul:
 #----------------------------------------------------------------------------------
 
   ratelimit:
+    #对应用来标识请求的key的前缀
     key-prefix: rabbit-ratelimite
     enabled: true
+    #对应存储类型（用来存储统计信息）
     repository: REDIS
+    #开启代理
     behind-proxy: true
+    #_以下配置表示：在3秒内允许50个访问，并且要求总共的请求时间为100秒
     policies:
       rabbit-upms-service:
-        limit: 100
+        #可选 - 每个刷新时间窗口对应的请求数量限制
+        limit: 50
+        #可选-  每个刷新时间窗口对应的请求时间限制（秒）
         quota: 100
+        # 刷新时间窗口的时间，默认值 (秒）
         refresh-interval: 3
 
 #_需要路由的url
