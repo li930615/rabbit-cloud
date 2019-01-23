@@ -6,7 +6,6 @@ server:
 spring:
   application:
     name: rabbit-eureka-server
-#_集成SpringSecurity安全认证，设置访问服务中心的密码
 security:
   user:
     name: rabbit

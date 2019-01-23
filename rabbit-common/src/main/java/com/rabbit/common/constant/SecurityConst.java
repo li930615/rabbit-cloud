@@ -21,9 +21,12 @@ public class SecurityConst {
       也可以是用户的角色，甚至是一些自定义的Claims*/
     public static Claims parseJwt(String token) {
         try {
-            return (Claims) Jwts.parser()
+            return Jwts.parser()
+                    //解析的编码方式以及key
                     .setSigningKey(DatatypeConverter.parseBase64Binary("rabbit_auth"))
+                    //解析token
                     .parseClaimsJws(token)
+                    //返回解析结果
                     .getBody();
         } catch (Exception e) {
             e.printStackTrace();

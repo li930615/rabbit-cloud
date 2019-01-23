@@ -30,6 +30,8 @@ zuul:
   host:
     connect-timeout-millis: 30000
     socket-timeout-millis: 30000
+  #_所有请求授权中心和用户中心的请求都会交由Zuul过滤器链
+  #Zuul服务中的路由仍然是按照 “zuul.routes.*”指定, 但是没有服务发现和代理, 因此”serviceId”和”url”配置会被忽略
   routes:
     ### 授权中心
     rabbit-auth-server:

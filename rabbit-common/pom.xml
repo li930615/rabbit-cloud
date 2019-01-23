@@ -3,7 +3,6 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <!--项目基本信息说明-->
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.rabbit.cloud</groupId>
     <artifactId>rabbit-common</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
@@ -24,7 +23,6 @@
         <commons-net.version>3.6</commons-net.version>
         <jasypt.version>1.18</jasypt.version>
         <mybatis-plus.version>2.1.9</mybatis-plus.version>
-        <hibernate-validator.version>5.4.1.Final</hibernate-validator.version>
         <swagger2.version>2.9.2</swagger2.version>
         <ttl.version>2.2.0</ttl.version>
         <jjwt.version>0.9.1</jjwt.version>

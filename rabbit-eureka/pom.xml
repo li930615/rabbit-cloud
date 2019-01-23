@@ -3,7 +3,6 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <!--项目基础信息说明-->
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.rabbit.cloud</groupId>
     <artifactId>rabbit-eureka</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
@@ -15,6 +14,7 @@
         <artifactId>rabbit-cloud</artifactId>
         <version>1.0.0</version>
     </parent>
+
 
     <!--依赖管理-->
     <dependencies>
@@ -29,18 +29,4 @@
             <artifactId>spring-cloud-starter-security</artifactId>
         </dependency>
     </dependencies>
-
-    <build>
-        <plugins>
-            <!--发布插件-->
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-deploy-plugin</artifactId>
-                <configuration>
-                    <!--跳过测试模块，不发布-->
-                    <skip>true</skip>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
 </project>
