@@ -66,7 +66,7 @@ public class SwaggerConfig {
                 .title("rabbit Swagger API ")
                 .description("http://www.baidu.com")
                 .termsOfServiceUrl("http://www.baidu.com")
-                .contact(new Contact("hd", "http://www.baidu.com", "shijiusanqian@gmail.com"))
+                .contact(new Contact("rabbit", "http://www.baidu.com", "shijiusanqian@gmail.com"))
                 .version("1.0")
                 .build();
     }

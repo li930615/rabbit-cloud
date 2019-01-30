@@ -16,7 +16,6 @@ spring:
     sampler:
       percentage: 0.2
 
-
 zuul:
   #解决上传文件,文件名乱码(???), 这个方案进入swagger-ui.html会报错，通过在路径前加/zuul解决
   #  servlet-path: /

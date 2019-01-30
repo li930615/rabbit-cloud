@@ -23,7 +23,7 @@ eureka:
       defaultZone: http://rabbit:rabbit@127.0.0.1:9300/eureka
     registry-fetch-interval-seconds: 5 #eureka client间隔多久去拉取服务注册信息，默认为30秒；如果要迅速获取服务注册状态，可以缩小该值
 
-
-endpoints:
-  health:
-    enabled: false
+#
+#endpoints:
+#  health:
+#    enabled: false

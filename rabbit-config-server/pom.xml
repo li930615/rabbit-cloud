@@ -5,7 +5,13 @@
 	<modelVersion>4.0.0</modelVersion>
 	<artifactId>rabbit-config-server</artifactId>
 	<version>1.0.0</version>
-	<name>rabbit-config-server</name>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-config-server</artifactId>
+        </dependency>
+    </dependencies>
+    <name>rabbit-config-server</name>
 	<description>配置中心</description>
 
 	<parent>

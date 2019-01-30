@@ -1,0 +1,30 @@
+server:
+  port: 9999
+
+spring:
+  application:
+    name: rabbit-config-server
+  #_启动从本地(项目中)读取配置文件，必须指定active的值，才可以使用本地文件配置模式
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          searchLocations:
+            classpath: classpath:/properties
+      fail-fast: true
+---
+spring:
+  profiles: native
+eureka:
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ipAddress}:${server.port}
+  #   ip-address:
+  client:
+    serviceUrl:
+      defaultZone: http://rabbit:rabbit@127.0.0.1:9300/eureka
+
+logging:
+  config: classpath:logback.xml

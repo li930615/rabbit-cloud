@@ -1,0 +1,19 @@
+spring:
+  #配置中心
+  cloud:
+    config:
+      fail-fast: true
+      discovery:
+        service-id: rabbit-config-server
+        enabled: true
+      profile: ${spring.profiles.active}
+      label: ${spring.profiles.active}
+
+eureka:
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ipAddress}:${server.port}
+  #    ip-address:
+  client:
+    serviceUrl:
+      defaultZone: http://rabbit:rabbit@127.0.0.1:9300/eureka
