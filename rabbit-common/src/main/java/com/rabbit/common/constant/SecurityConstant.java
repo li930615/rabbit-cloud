@@ -6,7 +6,7 @@ package com.rabbit.common.constant;
  * @Author LZQ
  * @Date 2019/1/19 19:34
  **/
-public abstract interface SecurityConstant {
+public interface SecurityConstant {
 
     String BASE_ROLE = "ROLE_USER";
     String AUTHORIZATION_CODE = "authorization_code";

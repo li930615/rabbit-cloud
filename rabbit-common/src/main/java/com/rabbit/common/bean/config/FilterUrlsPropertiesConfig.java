@@ -15,7 +15,7 @@ import java.util.List;
  **/
 @Configuration
 @ConditionalOnExpression("!'${urls}'.isEmpty()") //@ConditionalOnExpression注解，在特定情况下初始化bean(urls为空时初始化)
-@ConfigurationProperties(prefix="urls")//加上该注解后,就会注入在application.yml中server开头的属性
+@ConfigurationProperties(prefix="urls")//加上该注解后,就会注入在application.yml中urls开头的属性
 public class FilterUrlsPropertiesConfig {
 
     private List<String> anon = new ArrayList<>();

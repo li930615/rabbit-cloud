@@ -31,14 +31,13 @@ public class ZuulConfig {
     @Autowired
     ServerProperties server;
 
-    @Value("${rabbit.gateway.routeNum:0}")
+    @Value("${rabbit.gateway.routeNum}")
     /*设置服务扩展数量，生产环境无需指定*/
     public Integer routeNum;
 
-    @Value("${rabbit.gateway.permissionIntercept:true}")
+    @Value("${rabbit.gateway.permissionIntercept}")
     /*开启权限拦截*/
     public boolean permissionIntercept;
-
     @Bean
     /*配置动态路由*/
     public DynamicRouteLocator dynamicRouteLocator()

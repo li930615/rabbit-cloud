@@ -25,7 +25,7 @@ import org.springframework.data.redis.serializer.StringRedisSerializer;
 @EnableCaching
 public class RedisCacheConfig extends JCacheConfigurerSupport {
 
-    @Value("${redis.cache.expiration:3600}")
+    @Value("${redis.cache.expiration}")
     private Long expiration;//设置缓存的过期时间为1小时
 
     @Bean

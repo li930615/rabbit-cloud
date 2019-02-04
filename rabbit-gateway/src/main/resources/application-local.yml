@@ -6,7 +6,7 @@ server:
 rabbit:
   gateway:
     #服务扩展数量,生产环境无需指定(默认为0)
-    routeNum: 1
+    routeNum: 0
     #权限拦截开关
     permissionIntercept: true
 

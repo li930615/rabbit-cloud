@@ -10,5 +10,4 @@ public abstract interface ServerNameConst {
 
     String AUTH_SERVICE = "rabbit-auth-server";
     String UCENTER_SERVICE = "rabbit-ucenter-server";
-    String UMPS_SERVICE = "-upms-server";
 }
