@@ -10,6 +10,8 @@ import org.springframework.cloud.netflix.zuul.filters.ZuulProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+import javax.annotation.Resource;
+
 /**
  * @ClassName ZuulConfig
  * @Description TODO
@@ -19,7 +21,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class ZuulConfig {
 
-    @Autowired
+    @Resource
     private Registration registration;
 
     @Autowired
@@ -31,11 +33,11 @@ public class ZuulConfig {
     @Autowired
     ServerProperties server;
 
-    @Value("${rabbit.gateway.routeNum}")
+    @Value("${rabbit.gateway.routeNum:0}")
     /*设置服务扩展数量，生产环境无需指定*/
     public Integer routeNum;
 
-    @Value("${rabbit.gateway.permissionIntercept}")
+    @Value("${rabbit.gateway.permissionIntercept:true}")
     /*开启权限拦截*/
     public boolean permissionIntercept;
     @Bean

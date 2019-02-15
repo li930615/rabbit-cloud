@@ -78,7 +78,7 @@ public class PermissionServiceImpl implements PermissionService {
                 }
             }
         }
-        log.info("权限不足:{}", (Object) reqServerURI);
+        log.info("权限不足:{}", reqServerURI);
         return false;
     }
 

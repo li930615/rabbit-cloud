@@ -206,7 +206,7 @@ public class AccessFilter extends ZuulFilter {
     private Authorization parseAuthorization(String token) {
         Authorization authorization = null;
         /*给用户加入一个自定义的“证书”*/
-        Claims claims = SecurityConst.parseJwt(token);
+        Claims claims = SecurityConst.parseJWT(token);
         if (claims != null) {
             AuthType authType = new Gson().fromJson(claims.get("auth_type").toString(), AuthType.class);
             Object object = claims.get("auth_token");

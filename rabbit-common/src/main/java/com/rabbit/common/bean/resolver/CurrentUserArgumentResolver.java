@@ -5,6 +5,7 @@ import com.rabbit.common.entity.CurrentUser;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.core.MethodParameter;
 import org.springframework.web.bind.support.WebDataBinderFactory;
 import org.springframework.web.context.request.NativeWebRequest;
@@ -19,6 +20,7 @@ import javax.servlet.http.HttpServletRequest;
  * @Author LZQ
  * @Date 2019/1/19 18:48
  **/
+@Configuration
 public class CurrentUserArgumentResolver implements HandlerMethodArgumentResolver {
 
     private static final Logger log = LoggerFactory.getLogger(CurrentUserArgumentResolver.class);

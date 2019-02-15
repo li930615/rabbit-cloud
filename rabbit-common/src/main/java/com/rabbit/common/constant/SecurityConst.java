@@ -19,18 +19,12 @@ public class SecurityConst {
 
     /*claims 姑且叫做声明，可以理解为和用户相关的一条一条信息的描述，可以是用户的身份信息(Name,Email,ID)
       也可以是用户的角色，甚至是一些自定义的Claims*/
-    public static Claims parseJwt(String token) {
+    public static Claims parseJWT(String token) {
         try {
-            return Jwts.parser()
-                    //解析的编码方式以及key
-                    .setSigningKey(DatatypeConverter.parseBase64Binary("rabbit_auth"))
-                    //解析token
-                    .parseClaimsJws(token)
-                    //返回解析结果
-                    .getBody();
-        } catch (Exception e) {
-            e.printStackTrace();
+            Claims claims = Jwts.parser().setSigningKey(DatatypeConverter.parseBase64Binary(SIGNING_KEY)).parseClaimsJws(token).getBody();
+            return claims;
+        } catch (Exception ex) {
+            return null;
         }
-        return null;
     }
 }

@@ -13,7 +13,7 @@ import org.springframework.context.annotation.ComponentScan;
 @EnableZuulProxy
 @EnableDiscoveryClient
 @EnableFeignClients
-@ComponentScan(basePackages = {"com.rabbit.gateway","com.rabbit.common","com.rabbit.feign"})
+@ComponentScan(basePackages = {"com.rabbit.gateway","com.rabbit.common.bean","com.rabbit.feign"})
 @SpringBootApplication
 public class RabbitGatewayApplication {
 

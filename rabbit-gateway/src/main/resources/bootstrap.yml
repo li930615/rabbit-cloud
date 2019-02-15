@@ -22,7 +22,7 @@ zuul:
   ribbon:
     eager-load:
       enabled: true
-      clients: rabbit-auth-server, rabbit-ucenter-server
+      clients: rabbit-auth, rabbit-ucenter-server
   ignoredServices: '*'
   #防止重定项到上游服务器
   add-host-header: true
@@ -56,14 +56,6 @@ zuul:
     #开启代理
     behind-proxy: true
     #_以下配置表示：在3秒内允许50个访问，并且要求总共的请求时间为100秒
-    policies:
-      rabbit-upms-service:
-        #可选 - 每个刷新时间窗口对应的请求数量限制
-        limit: 50
-        #可选-  每个刷新时间窗口对应的请求时间限制（秒）
-        quota: 100
-        # 刷新时间窗口的时间，默认值 (秒）
-        refresh-interval: 3
 
 #_不进行拦截的URL请求
 urls:
