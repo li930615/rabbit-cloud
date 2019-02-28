@@ -6,8 +6,9 @@ server:
 spring:
   application:
     name: rabbit-gateway
+  autoconfigure.exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration
   profiles:
-    active: local
+    active: prd
   # sleuth配置
   zipkin:
     rabbitmq:
@@ -22,7 +23,7 @@ zuul:
   ribbon:
     eager-load:
       enabled: true
-      clients: rabbit-auth, rabbit-ucenter-server
+      clients: rabbit-auth-server, rabbit-ucenter-server
   ignoredServices: '*'
   #防止重定项到上游服务器
   add-host-header: true

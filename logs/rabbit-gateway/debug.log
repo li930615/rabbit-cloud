@@ -1,0 +1,640 @@
+2019-02-26 20:35:26,436 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:347 - Initializing Eureka in region us-east-1
+2019-02-26 20:35:26,620 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:70 - Using JSON encoding codec LegacyJacksonJson
+2019-02-26 20:35:26,621 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:71 - Using JSON decoding codec LegacyJacksonJson
+2019-02-26 20:35:26,845 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:80 - Using XML encoding codec XStreamXml
+2019-02-26 20:35:26,846 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:81 - Using XML decoding codec XStreamXml
+2019-02-26 20:35:27,448 [main] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-02-26 20:35:27,583 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:934 - Disable delta property : false
+2019-02-26 20:35:27,583 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:935 - Single vip registry refresh property : null
+2019-02-26 20:35:27,583 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:936 - Force full registry fetch : false
+2019-02-26 20:35:27,584 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:937 - Application is null : false
+2019-02-26 20:35:27,584 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:938 - Registered Applications size is zero : true
+2019-02-26 20:35:27,584 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:940 - Application version is -1: true
+2019-02-26 20:35:27,584 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1023 - Getting all instance registry info from the eureka server
+2019-02-26 20:35:27,967 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1032 - The response status is 200
+2019-02-26 20:35:27,969 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1305 - Not registering with Eureka server per configuration
+2019-02-26 20:35:27,974 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:434 - Discovery Client initialized at timestamp 1551184527974 with initial instances count: 1
+2019-02-26 20:35:29,159 [main] INFO  [com.rabbit.gateway.RabbitGatewayApplication] SpringApplication.java:597 - The following profiles are active: prd
+2019-02-26 20:35:31,765 [main] WARN  [o.s.c.a.ClassPathScanningCandidateComponentProvider] ClassPathMapperScanner.java:166 - No MyBatis mapper was found in '[com.rabbit.feign.ucenter, com.rabbit.gateway]' package. Please check your configuration.
+2019-02-26 20:35:34,048 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:180 - Starting service [Tomcat]
+2019-02-26 20:35:34,048 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:180 - Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-02-26 20:35:34,290 [localhost-startStop-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:180 - Initializing Spring embedded WebApplicationContext
+2019-02-26 20:35:36,290 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:347 - Initializing Eureka in region us-east-1
+2019-02-26 20:35:36,291 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:70 - Using JSON encoding codec LegacyJacksonJson
+2019-02-26 20:35:36,291 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:71 - Using JSON decoding codec LegacyJacksonJson
+2019-02-26 20:35:36,292 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:80 - Using XML encoding codec XStreamXml
+2019-02-26 20:35:36,292 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:81 - Using XML decoding codec XStreamXml
+2019-02-26 20:35:36,391 [main] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-02-26 20:35:36,392 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:934 - Disable delta property : false
+2019-02-26 20:35:36,393 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:935 - Single vip registry refresh property : null
+2019-02-26 20:35:36,393 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:936 - Force full registry fetch : false
+2019-02-26 20:35:36,393 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:937 - Application is null : false
+2019-02-26 20:35:36,393 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:938 - Registered Applications size is zero : true
+2019-02-26 20:35:36,394 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:940 - Application version is -1: true
+2019-02-26 20:35:36,394 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1023 - Getting all instance registry info from the eureka server
+2019-02-26 20:35:36,399 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1032 - The response status is 200
+2019-02-26 20:35:36,400 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1258 - Starting heartbeat executor: renew interval is: 30
+2019-02-26 20:35:36,403 [main] INFO  [com.netflix.discovery.InstanceInfoReplicator] InstanceInfoReplicator.java:59 - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-02-26 20:35:36,405 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:434 - Discovery Client initialized at timestamp 1551184536405 with initial instances count: 1
+2019-02-26 20:35:37,687 [main] WARN  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:121 - No URLs will be polled as dynamic configuration sources.
+2019-02-26 20:35:37,688 [main] INFO  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-02-26 20:35:37,695 [main] INFO  [com.netflix.config.DynamicPropertyFactory] DynamicPropertyFactory.java:281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@6639f243
+2019-02-26 20:35:37,909 [main] WARN  [o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext] AbstractApplicationContext.java:551 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'documentationPluginsBootstrapper' defined in URL [jar:file:/E:/Maven/repo/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/plugins/DocumentationPluginsBootstrapper.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/E:/Maven/repo/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'endpointHandlerMapping' defined in class path resource [org/springframework/boot/actuate/autoconfigure/EndpointWebMvcManagementContextConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping]: Factory method 'endpointHandlerMapping' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mvcEndpoints' defined in class path resource [org/springframework/boot/actuate/autoconfigure/EndpointWebMvcManagementContextConfiguration.class]: Invocation of init method failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'environmentMvcEndpoint' defined in class path resource [org/springframework/boot/actuate/autoconfigure/EndpointWebMvcManagementContextConfiguration.class]: Unsatisfied dependency expressed through method 'environmentMvcEndpoint' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.actuate.autoconfigure.EndpointAutoConfiguration': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.autoconfigure.EndpointAutoConfiguration$$EnhancerBySpringCGLIB$$4349f83c]: Constructor threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.actuate.autoconfigure.HealthIndicatorAutoConfiguration$DataSourcesHealthIndicatorConfiguration': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.autoconfigure.HealthIndicatorAutoConfiguration$DataSourcesHealthIndicatorConfiguration$$EnhancerBySpringCGLIB$$6e2d1841]: Constructor threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Cannot determine embedded database driver class for database type NONE. If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (the profiles "prd" are currently active).
+2019-02-26 20:35:37,916 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:866 - Shutting down DiscoveryClient ...
+2019-02-26 20:35:37,920 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:898 - Unregistering ...
+2019-02-26 20:35:37,934 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:900 - DiscoveryClient_RABBIT-GATEWAY/${spring.cloud.client.ipAddress}:${server.port} - deregister  status: 404
+2019-02-26 20:35:37,942 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:887 - Completed shut down of DiscoveryClient
+2019-02-26 20:35:37,946 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:180 - Stopping service [Tomcat]
+2019-02-26 20:35:37,980 [main] ERROR [o.s.b.diagnostics.LoggingFailureAnalysisReporter] LoggingFailureAnalysisReporter.java:42 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Cannot determine embedded database driver class for database type NONE
+
+Action:
+
+If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (the profiles "prd" are currently active).
+
+2019-02-26 21:09:54,267 [main] WARN  [o.s.c.c.client.ConfigServicePropertySourceLocator] ConfigServicePropertySourceLocator.java:136 - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/rabbit-gateway/local": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2019-02-26 21:09:54,284 [main] INFO  [com.rabbit.gateway.RabbitGatewayApplication] SpringApplication.java:597 - The following profiles are active: local
+2019-02-26 21:09:56,922 [main] WARN  [o.s.c.a.ClassPathScanningCandidateComponentProvider] ClassPathMapperScanner.java:166 - No MyBatis mapper was found in '[com.rabbit.feign.ucenter, com.rabbit.gateway]' package. Please check your configuration.
+2019-02-26 21:09:59,302 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:180 - Starting service [Tomcat]
+2019-02-26 21:09:59,303 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:180 - Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-02-26 21:10:00,445 [localhost-startStop-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:180 - Initializing Spring embedded WebApplicationContext
+2019-02-26 21:13:31,171 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:347 - Initializing Eureka in region us-east-1
+2019-02-26 21:13:31,376 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:70 - Using JSON encoding codec LegacyJacksonJson
+2019-02-26 21:13:31,376 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:71 - Using JSON decoding codec LegacyJacksonJson
+2019-02-26 21:13:31,599 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:80 - Using XML encoding codec XStreamXml
+2019-02-26 21:13:31,599 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:81 - Using XML decoding codec XStreamXml
+2019-02-26 21:13:32,187 [main] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-02-26 21:13:32,303 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:934 - Disable delta property : false
+2019-02-26 21:13:32,303 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:935 - Single vip registry refresh property : null
+2019-02-26 21:13:32,303 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:936 - Force full registry fetch : false
+2019-02-26 21:13:32,304 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:937 - Application is null : false
+2019-02-26 21:13:32,304 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:938 - Registered Applications size is zero : true
+2019-02-26 21:13:32,304 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:940 - Application version is -1: true
+2019-02-26 21:13:32,304 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1023 - Getting all instance registry info from the eureka server
+2019-02-26 21:13:32,642 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1032 - The response status is 200
+2019-02-26 21:13:32,644 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1305 - Not registering with Eureka server per configuration
+2019-02-26 21:13:32,648 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:434 - Discovery Client initialized at timestamp 1551186812648 with initial instances count: 1
+2019-02-26 21:13:33,877 [main] INFO  [com.rabbit.gateway.RabbitGatewayApplication] SpringApplication.java:597 - The following profiles are active: prd
+2019-02-26 21:13:35,928 [main] WARN  [o.s.c.a.ClassPathScanningCandidateComponentProvider] ClassPathMapperScanner.java:166 - No MyBatis mapper was found in '[com.rabbit.feign.ucenter, com.rabbit.gateway]' package. Please check your configuration.
+2019-02-26 21:13:38,125 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:180 - Starting service [Tomcat]
+2019-02-26 21:13:38,126 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:180 - Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-02-26 21:13:38,357 [localhost-startStop-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:180 - Initializing Spring embedded WebApplicationContext
+2019-02-26 21:13:40,176 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:347 - Initializing Eureka in region us-east-1
+2019-02-26 21:13:40,179 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:70 - Using JSON encoding codec LegacyJacksonJson
+2019-02-26 21:13:40,179 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:71 - Using JSON decoding codec LegacyJacksonJson
+2019-02-26 21:13:40,179 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:80 - Using XML encoding codec XStreamXml
+2019-02-26 21:13:40,180 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:81 - Using XML decoding codec XStreamXml
+2019-02-26 21:13:40,278 [main] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-02-26 21:13:40,280 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:934 - Disable delta property : false
+2019-02-26 21:13:40,280 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:935 - Single vip registry refresh property : null
+2019-02-26 21:13:40,280 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:936 - Force full registry fetch : false
+2019-02-26 21:13:40,281 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:937 - Application is null : false
+2019-02-26 21:13:40,281 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:938 - Registered Applications size is zero : true
+2019-02-26 21:13:40,281 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:940 - Application version is -1: true
+2019-02-26 21:13:40,281 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1023 - Getting all instance registry info from the eureka server
+2019-02-26 21:13:40,292 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1032 - The response status is 200
+2019-02-26 21:13:40,292 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1258 - Starting heartbeat executor: renew interval is: 30
+2019-02-26 21:13:40,296 [main] INFO  [com.netflix.discovery.InstanceInfoReplicator] InstanceInfoReplicator.java:59 - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-02-26 21:13:40,297 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:434 - Discovery Client initialized at timestamp 1551186820297 with initial instances count: 1
+2019-02-26 21:13:41,334 [main] WARN  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:121 - No URLs will be polled as dynamic configuration sources.
+2019-02-26 21:13:41,334 [main] INFO  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-02-26 21:13:41,341 [main] INFO  [com.netflix.config.DynamicPropertyFactory] DynamicPropertyFactory.java:281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@2b90f99b
+2019-02-26 21:13:41,618 [main] WARN  [o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext] AbstractApplicationContext.java:551 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'documentationPluginsBootstrapper' defined in URL [jar:file:/E:/Maven/repo/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/plugins/DocumentationPluginsBootstrapper.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/E:/Maven/repo/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'endpointHandlerMapping' defined in class path resource [org/springframework/boot/actuate/autoconfigure/EndpointWebMvcManagementContextConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping]: Factory method 'endpointHandlerMapping' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mvcEndpoints' defined in class path resource [org/springframework/boot/actuate/autoconfigure/EndpointWebMvcManagementContextConfiguration.class]: Invocation of init method failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'environmentMvcEndpoint' defined in class path resource [org/springframework/boot/actuate/autoconfigure/EndpointWebMvcManagementContextConfiguration.class]: Unsatisfied dependency expressed through method 'environmentMvcEndpoint' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.actuate.autoconfigure.EndpointAutoConfiguration': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.autoconfigure.EndpointAutoConfiguration$$EnhancerBySpringCGLIB$$a3f90963]: Constructor threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.actuate.autoconfigure.HealthIndicatorAutoConfiguration$DataSourcesHealthIndicatorConfiguration': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.autoconfigure.HealthIndicatorAutoConfiguration$DataSourcesHealthIndicatorConfiguration$$EnhancerBySpringCGLIB$$cedc2968]: Constructor threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Cannot determine embedded database driver class for database type NONE. If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (the profiles "prd" are currently active).
+2019-02-26 21:13:41,625 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:866 - Shutting down DiscoveryClient ...
+2019-02-26 21:13:41,629 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:898 - Unregistering ...
+2019-02-26 21:13:41,638 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:900 - DiscoveryClient_RABBIT-GATEWAY/192.168.1.35:9199 - deregister  status: 404
+2019-02-26 21:13:41,645 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:887 - Completed shut down of DiscoveryClient
+2019-02-26 21:13:41,649 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:180 - Stopping service [Tomcat]
+2019-02-26 21:13:41,713 [main] ERROR [o.s.b.diagnostics.LoggingFailureAnalysisReporter] LoggingFailureAnalysisReporter.java:42 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Cannot determine embedded database driver class for database type NONE
+
+Action:
+
+If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (the profiles "prd" are currently active).
+
+2019-02-26 21:14:27,175 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:347 - Initializing Eureka in region us-east-1
+2019-02-26 21:14:27,317 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:70 - Using JSON encoding codec LegacyJacksonJson
+2019-02-26 21:14:27,317 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:71 - Using JSON decoding codec LegacyJacksonJson
+2019-02-26 21:14:27,523 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:80 - Using XML encoding codec XStreamXml
+2019-02-26 21:14:27,523 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:81 - Using XML decoding codec XStreamXml
+2019-02-26 21:14:28,091 [main] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-02-26 21:14:28,211 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:934 - Disable delta property : false
+2019-02-26 21:14:28,211 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:935 - Single vip registry refresh property : null
+2019-02-26 21:14:28,211 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:936 - Force full registry fetch : false
+2019-02-26 21:14:28,211 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:937 - Application is null : false
+2019-02-26 21:14:28,212 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:938 - Registered Applications size is zero : true
+2019-02-26 21:14:28,212 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:940 - Application version is -1: true
+2019-02-26 21:14:28,212 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1023 - Getting all instance registry info from the eureka server
+2019-02-26 21:14:28,520 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1032 - The response status is 200
+2019-02-26 21:14:28,522 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1305 - Not registering with Eureka server per configuration
+2019-02-26 21:14:28,526 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:434 - Discovery Client initialized at timestamp 1551186868526 with initial instances count: 1
+2019-02-26 21:14:29,506 [main] INFO  [com.rabbit.gateway.RabbitGatewayApplication] SpringApplication.java:597 - The following profiles are active: prd
+2019-02-26 21:14:30,638 [main] WARN  [o.s.c.a.ClassPathScanningCandidateComponentProvider] ClassPathMapperScanner.java:166 - No MyBatis mapper was found in '[com.rabbit.feign.ucenter, com.rabbit.gateway]' package. Please check your configuration.
+2019-02-26 21:14:32,420 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:180 - Starting service [Tomcat]
+2019-02-26 21:14:32,420 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:180 - Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-02-26 21:14:32,657 [localhost-startStop-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:180 - Initializing Spring embedded WebApplicationContext
+2019-02-26 21:14:34,330 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:347 - Initializing Eureka in region us-east-1
+2019-02-26 21:14:34,333 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:70 - Using JSON encoding codec LegacyJacksonJson
+2019-02-26 21:14:34,333 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:71 - Using JSON decoding codec LegacyJacksonJson
+2019-02-26 21:14:34,334 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:80 - Using XML encoding codec XStreamXml
+2019-02-26 21:14:34,334 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:81 - Using XML decoding codec XStreamXml
+2019-02-26 21:14:34,438 [main] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-02-26 21:14:34,439 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:934 - Disable delta property : false
+2019-02-26 21:14:34,440 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:935 - Single vip registry refresh property : null
+2019-02-26 21:14:34,440 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:936 - Force full registry fetch : false
+2019-02-26 21:14:34,440 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:937 - Application is null : false
+2019-02-26 21:14:34,441 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:938 - Registered Applications size is zero : true
+2019-02-26 21:14:34,441 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:940 - Application version is -1: true
+2019-02-26 21:14:34,441 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1023 - Getting all instance registry info from the eureka server
+2019-02-26 21:14:34,446 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1032 - The response status is 200
+2019-02-26 21:14:34,447 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1258 - Starting heartbeat executor: renew interval is: 30
+2019-02-26 21:14:34,450 [main] INFO  [com.netflix.discovery.InstanceInfoReplicator] InstanceInfoReplicator.java:59 - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-02-26 21:14:34,452 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:434 - Discovery Client initialized at timestamp 1551186874452 with initial instances count: 1
+2019-02-26 21:14:35,265 [main] WARN  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:121 - No URLs will be polled as dynamic configuration sources.
+2019-02-26 21:14:35,266 [main] INFO  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-02-26 21:14:35,272 [main] INFO  [com.netflix.config.DynamicPropertyFactory] DynamicPropertyFactory.java:281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@217b92ad
+2019-02-26 21:14:35,443 [main] WARN  [o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext] AbstractApplicationContext.java:551 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'documentationPluginsBootstrapper' defined in URL [jar:file:/E:/Maven/repo/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/plugins/DocumentationPluginsBootstrapper.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/E:/Maven/repo/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'endpointHandlerMapping' defined in class path resource [org/springframework/boot/actuate/autoconfigure/EndpointWebMvcManagementContextConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping]: Factory method 'endpointHandlerMapping' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mvcEndpoints' defined in class path resource [org/springframework/boot/actuate/autoconfigure/EndpointWebMvcManagementContextConfiguration.class]: Invocation of init method failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'environmentMvcEndpoint' defined in class path resource [org/springframework/boot/actuate/autoconfigure/EndpointWebMvcManagementContextConfiguration.class]: Unsatisfied dependency expressed through method 'environmentMvcEndpoint' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.actuate.autoconfigure.EndpointAutoConfiguration': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.autoconfigure.EndpointAutoConfiguration$$EnhancerBySpringCGLIB$$d4711401]: Constructor threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.actuate.autoconfigure.HealthIndicatorAutoConfiguration$DataSourcesHealthIndicatorConfiguration': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.autoconfigure.HealthIndicatorAutoConfiguration$DataSourcesHealthIndicatorConfiguration$$EnhancerBySpringCGLIB$$ff543406]: Constructor threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Cannot determine embedded database driver class for database type NONE. If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (the profiles "prd" are currently active).
+2019-02-26 21:14:35,450 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:866 - Shutting down DiscoveryClient ...
+2019-02-26 21:14:35,453 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:898 - Unregistering ...
+2019-02-26 21:14:35,461 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:900 - DiscoveryClient_RABBIT-GATEWAY/192.168.1.35:9199 - deregister  status: 404
+2019-02-26 21:14:35,468 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:887 - Completed shut down of DiscoveryClient
+2019-02-26 21:14:35,472 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:180 - Stopping service [Tomcat]
+2019-02-26 21:14:35,507 [main] ERROR [o.s.b.diagnostics.LoggingFailureAnalysisReporter] LoggingFailureAnalysisReporter.java:42 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Cannot determine embedded database driver class for database type NONE
+
+Action:
+
+If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (the profiles "prd" are currently active).
+
+2019-02-26 21:15:58,265 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:347 - Initializing Eureka in region us-east-1
+2019-02-26 21:15:58,384 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:70 - Using JSON encoding codec LegacyJacksonJson
+2019-02-26 21:15:58,385 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:71 - Using JSON decoding codec LegacyJacksonJson
+2019-02-26 21:15:58,570 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:80 - Using XML encoding codec XStreamXml
+2019-02-26 21:15:58,571 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:81 - Using XML decoding codec XStreamXml
+2019-02-26 21:15:59,074 [main] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-02-26 21:15:59,190 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:934 - Disable delta property : false
+2019-02-26 21:15:59,190 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:935 - Single vip registry refresh property : null
+2019-02-26 21:15:59,190 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:936 - Force full registry fetch : false
+2019-02-26 21:15:59,191 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:937 - Application is null : false
+2019-02-26 21:15:59,191 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:938 - Registered Applications size is zero : true
+2019-02-26 21:15:59,191 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:940 - Application version is -1: true
+2019-02-26 21:15:59,191 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1023 - Getting all instance registry info from the eureka server
+2019-02-26 21:15:59,508 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1032 - The response status is 200
+2019-02-26 21:15:59,510 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1305 - Not registering with Eureka server per configuration
+2019-02-26 21:15:59,514 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:434 - Discovery Client initialized at timestamp 1551186959514 with initial instances count: 1
+2019-02-26 21:16:00,460 [main] INFO  [com.rabbit.gateway.RabbitGatewayApplication] SpringApplication.java:597 - The following profiles are active: prd
+2019-02-26 21:16:01,712 [main] WARN  [o.s.c.a.ClassPathScanningCandidateComponentProvider] ClassPathMapperScanner.java:166 - No MyBatis mapper was found in '[com.rabbit.feign.ucenter, com.rabbit.gateway]' package. Please check your configuration.
+2019-02-26 21:16:03,478 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:180 - Starting service [Tomcat]
+2019-02-26 21:16:03,478 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:180 - Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-02-26 21:16:03,718 [localhost-startStop-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:180 - Initializing Spring embedded WebApplicationContext
+2019-02-26 21:16:05,416 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:347 - Initializing Eureka in region us-east-1
+2019-02-26 21:16:05,419 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:70 - Using JSON encoding codec LegacyJacksonJson
+2019-02-26 21:16:05,419 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:71 - Using JSON decoding codec LegacyJacksonJson
+2019-02-26 21:16:05,420 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:80 - Using XML encoding codec XStreamXml
+2019-02-26 21:16:05,420 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:81 - Using XML decoding codec XStreamXml
+2019-02-26 21:16:05,537 [main] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-02-26 21:16:05,538 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:934 - Disable delta property : false
+2019-02-26 21:16:05,539 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:935 - Single vip registry refresh property : null
+2019-02-26 21:16:05,539 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:936 - Force full registry fetch : false
+2019-02-26 21:16:05,539 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:937 - Application is null : false
+2019-02-26 21:16:05,539 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:938 - Registered Applications size is zero : true
+2019-02-26 21:16:05,540 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:940 - Application version is -1: true
+2019-02-26 21:16:05,540 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1023 - Getting all instance registry info from the eureka server
+2019-02-26 21:16:05,545 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1032 - The response status is 200
+2019-02-26 21:16:05,546 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1258 - Starting heartbeat executor: renew interval is: 30
+2019-02-26 21:16:05,549 [main] INFO  [com.netflix.discovery.InstanceInfoReplicator] InstanceInfoReplicator.java:59 - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-02-26 21:16:05,551 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:434 - Discovery Client initialized at timestamp 1551186965551 with initial instances count: 1
+2019-02-26 21:16:06,529 [main] WARN  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:121 - No URLs will be polled as dynamic configuration sources.
+2019-02-26 21:16:06,530 [main] INFO  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-02-26 21:16:06,536 [main] INFO  [com.netflix.config.DynamicPropertyFactory] DynamicPropertyFactory.java:281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@5a7fce3c
+2019-02-26 21:16:06,687 [main] WARN  [o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext] AbstractApplicationContext.java:551 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'documentationPluginsBootstrapper' defined in URL [jar:file:/E:/Maven/repo/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/plugins/DocumentationPluginsBootstrapper.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/E:/Maven/repo/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'endpointHandlerMapping' defined in class path resource [org/springframework/boot/actuate/autoconfigure/EndpointWebMvcManagementContextConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping]: Factory method 'endpointHandlerMapping' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mvcEndpoints' defined in class path resource [org/springframework/boot/actuate/autoconfigure/EndpointWebMvcManagementContextConfiguration.class]: Invocation of init method failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'environmentMvcEndpoint' defined in class path resource [org/springframework/boot/actuate/autoconfigure/EndpointWebMvcManagementContextConfiguration.class]: Unsatisfied dependency expressed through method 'environmentMvcEndpoint' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.actuate.autoconfigure.EndpointAutoConfiguration': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.autoconfigure.EndpointAutoConfiguration$$EnhancerBySpringCGLIB$$5f3da6b0]: Constructor threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.actuate.autoconfigure.HealthIndicatorAutoConfiguration$DataSourcesHealthIndicatorConfiguration': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.autoconfigure.HealthIndicatorAutoConfiguration$DataSourcesHealthIndicatorConfiguration$$EnhancerBySpringCGLIB$$8a20c6b5]: Constructor threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Cannot determine embedded database driver class for database type NONE. If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (the profiles "prd" are currently active).
+2019-02-26 21:16:06,694 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:866 - Shutting down DiscoveryClient ...
+2019-02-26 21:16:06,698 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:898 - Unregistering ...
+2019-02-26 21:16:06,708 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:900 - DiscoveryClient_RABBIT-GATEWAY/192.168.1.35:9199 - deregister  status: 404
+2019-02-26 21:16:06,715 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:887 - Completed shut down of DiscoveryClient
+2019-02-26 21:16:06,719 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:180 - Stopping service [Tomcat]
+2019-02-26 21:16:06,759 [main] ERROR [o.s.b.diagnostics.LoggingFailureAnalysisReporter] LoggingFailureAnalysisReporter.java:42 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Cannot determine embedded database driver class for database type NONE
+
+Action:
+
+If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (the profiles "prd" are currently active).
+
+2019-02-26 21:16:40,282 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:347 - Initializing Eureka in region us-east-1
+2019-02-26 21:16:40,405 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:70 - Using JSON encoding codec LegacyJacksonJson
+2019-02-26 21:16:40,405 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:71 - Using JSON decoding codec LegacyJacksonJson
+2019-02-26 21:16:40,605 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:80 - Using XML encoding codec XStreamXml
+2019-02-26 21:16:40,605 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:81 - Using XML decoding codec XStreamXml
+2019-02-26 21:16:41,104 [main] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-02-26 21:16:41,223 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:934 - Disable delta property : false
+2019-02-26 21:16:41,223 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:935 - Single vip registry refresh property : null
+2019-02-26 21:16:41,223 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:936 - Force full registry fetch : false
+2019-02-26 21:16:41,224 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:937 - Application is null : false
+2019-02-26 21:16:41,224 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:938 - Registered Applications size is zero : true
+2019-02-26 21:16:41,224 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:940 - Application version is -1: true
+2019-02-26 21:16:41,224 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1023 - Getting all instance registry info from the eureka server
+2019-02-26 21:16:41,548 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1032 - The response status is 200
+2019-02-26 21:16:41,550 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1305 - Not registering with Eureka server per configuration
+2019-02-26 21:16:41,554 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:434 - Discovery Client initialized at timestamp 1551187001554 with initial instances count: 1
+2019-02-26 21:16:42,515 [main] INFO  [com.rabbit.gateway.RabbitGatewayApplication] SpringApplication.java:597 - The following profiles are active: prd
+2019-02-26 21:16:43,639 [main] WARN  [o.s.c.a.ClassPathScanningCandidateComponentProvider] ClassPathMapperScanner.java:166 - No MyBatis mapper was found in '[com.rabbit.feign.ucenter, com.rabbit.gateway]' package. Please check your configuration.
+2019-02-26 21:16:45,432 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:180 - Starting service [Tomcat]
+2019-02-26 21:16:45,433 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:180 - Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-02-26 21:16:45,671 [localhost-startStop-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:180 - Initializing Spring embedded WebApplicationContext
+2019-02-26 21:16:47,336 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:347 - Initializing Eureka in region us-east-1
+2019-02-26 21:16:47,338 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:70 - Using JSON encoding codec LegacyJacksonJson
+2019-02-26 21:16:47,338 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:71 - Using JSON decoding codec LegacyJacksonJson
+2019-02-26 21:16:47,339 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:80 - Using XML encoding codec XStreamXml
+2019-02-26 21:16:47,339 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:81 - Using XML decoding codec XStreamXml
+2019-02-26 21:16:47,436 [main] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-02-26 21:16:47,437 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:934 - Disable delta property : false
+2019-02-26 21:16:47,438 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:935 - Single vip registry refresh property : null
+2019-02-26 21:16:47,438 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:936 - Force full registry fetch : false
+2019-02-26 21:16:47,438 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:937 - Application is null : false
+2019-02-26 21:16:47,438 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:938 - Registered Applications size is zero : true
+2019-02-26 21:16:47,439 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:940 - Application version is -1: true
+2019-02-26 21:16:47,439 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1023 - Getting all instance registry info from the eureka server
+2019-02-26 21:16:47,444 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1032 - The response status is 200
+2019-02-26 21:16:47,445 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1258 - Starting heartbeat executor: renew interval is: 30
+2019-02-26 21:16:47,448 [main] INFO  [com.netflix.discovery.InstanceInfoReplicator] InstanceInfoReplicator.java:59 - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-02-26 21:16:47,450 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:434 - Discovery Client initialized at timestamp 1551187007450 with initial instances count: 1
+2019-02-26 21:16:48,279 [main] WARN  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:121 - No URLs will be polled as dynamic configuration sources.
+2019-02-26 21:16:48,279 [main] INFO  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-02-26 21:16:48,286 [main] INFO  [com.netflix.config.DynamicPropertyFactory] DynamicPropertyFactory.java:281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@2c32fba3
+2019-02-26 21:16:48,454 [main] WARN  [o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext] AbstractApplicationContext.java:551 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'documentationPluginsBootstrapper' defined in URL [jar:file:/E:/Maven/repo/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/plugins/DocumentationPluginsBootstrapper.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/E:/Maven/repo/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'endpointHandlerMapping' defined in class path resource [org/springframework/boot/actuate/autoconfigure/EndpointWebMvcManagementContextConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping]: Factory method 'endpointHandlerMapping' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mvcEndpoints' defined in class path resource [org/springframework/boot/actuate/autoconfigure/EndpointWebMvcManagementContextConfiguration.class]: Invocation of init method failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'environmentMvcEndpoint' defined in class path resource [org/springframework/boot/actuate/autoconfigure/EndpointWebMvcManagementContextConfiguration.class]: Unsatisfied dependency expressed through method 'environmentMvcEndpoint' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.actuate.autoconfigure.EndpointAutoConfiguration': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.autoconfigure.EndpointAutoConfiguration$$EnhancerBySpringCGLIB$$a3f90963]: Constructor threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.actuate.autoconfigure.HealthIndicatorAutoConfiguration$DataSourcesHealthIndicatorConfiguration': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.autoconfigure.HealthIndicatorAutoConfiguration$DataSourcesHealthIndicatorConfiguration$$EnhancerBySpringCGLIB$$cedc2968]: Constructor threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Cannot determine embedded database driver class for database type NONE. If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (the profiles "prd" are currently active).
+2019-02-26 21:16:48,460 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:866 - Shutting down DiscoveryClient ...
+2019-02-26 21:16:48,464 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:898 - Unregistering ...
+2019-02-26 21:16:48,471 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:900 - DiscoveryClient_RABBIT-GATEWAY/192.168.1.35:9199 - deregister  status: 404
+2019-02-26 21:16:48,477 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:887 - Completed shut down of DiscoveryClient
+2019-02-26 21:16:48,481 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:180 - Stopping service [Tomcat]
+2019-02-26 21:16:48,518 [main] ERROR [o.s.b.diagnostics.LoggingFailureAnalysisReporter] LoggingFailureAnalysisReporter.java:42 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Cannot determine embedded database driver class for database type NONE
+
+Action:
+
+If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (the profiles "prd" are currently active).
+
+2019-02-26 21:18:40,293 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:347 - Initializing Eureka in region us-east-1
+2019-02-26 21:18:40,425 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:70 - Using JSON encoding codec LegacyJacksonJson
+2019-02-26 21:18:40,425 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:71 - Using JSON decoding codec LegacyJacksonJson
+2019-02-26 21:18:40,608 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:80 - Using XML encoding codec XStreamXml
+2019-02-26 21:18:40,609 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:81 - Using XML decoding codec XStreamXml
+2019-02-26 21:18:41,115 [main] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-02-26 21:18:41,243 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:934 - Disable delta property : false
+2019-02-26 21:18:41,244 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:935 - Single vip registry refresh property : null
+2019-02-26 21:18:41,244 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:936 - Force full registry fetch : false
+2019-02-26 21:18:41,244 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:937 - Application is null : false
+2019-02-26 21:18:41,244 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:938 - Registered Applications size is zero : true
+2019-02-26 21:18:41,245 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:940 - Application version is -1: true
+2019-02-26 21:18:41,245 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1023 - Getting all instance registry info from the eureka server
+2019-02-26 21:18:41,553 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1032 - The response status is 200
+2019-02-26 21:18:41,555 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1305 - Not registering with Eureka server per configuration
+2019-02-26 21:18:41,559 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:434 - Discovery Client initialized at timestamp 1551187121559 with initial instances count: 1
+2019-02-26 21:18:42,513 [main] INFO  [com.rabbit.gateway.RabbitGatewayApplication] SpringApplication.java:597 - The following profiles are active: prd
+2019-02-26 21:18:43,640 [main] WARN  [o.s.c.a.ClassPathScanningCandidateComponentProvider] ClassPathMapperScanner.java:166 - No MyBatis mapper was found in '[com.rabbit.feign.ucenter, com.rabbit.gateway]' package. Please check your configuration.
+2019-02-26 21:18:45,433 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:180 - Starting service [Tomcat]
+2019-02-26 21:18:45,434 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:180 - Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-02-26 21:18:45,660 [localhost-startStop-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:180 - Initializing Spring embedded WebApplicationContext
+2019-02-26 21:18:47,357 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:347 - Initializing Eureka in region us-east-1
+2019-02-26 21:18:47,359 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:70 - Using JSON encoding codec LegacyJacksonJson
+2019-02-26 21:18:47,360 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:71 - Using JSON decoding codec LegacyJacksonJson
+2019-02-26 21:18:47,360 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:80 - Using XML encoding codec XStreamXml
+2019-02-26 21:18:47,360 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:81 - Using XML decoding codec XStreamXml
+2019-02-26 21:18:47,461 [main] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-02-26 21:18:47,462 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:934 - Disable delta property : false
+2019-02-26 21:18:47,462 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:935 - Single vip registry refresh property : null
+2019-02-26 21:18:47,462 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:936 - Force full registry fetch : false
+2019-02-26 21:18:47,463 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:937 - Application is null : false
+2019-02-26 21:18:47,463 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:938 - Registered Applications size is zero : true
+2019-02-26 21:18:47,463 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:940 - Application version is -1: true
+2019-02-26 21:18:47,463 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1023 - Getting all instance registry info from the eureka server
+2019-02-26 21:18:47,468 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1032 - The response status is 200
+2019-02-26 21:18:47,469 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1258 - Starting heartbeat executor: renew interval is: 30
+2019-02-26 21:18:47,472 [main] INFO  [com.netflix.discovery.InstanceInfoReplicator] InstanceInfoReplicator.java:59 - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-02-26 21:18:47,474 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:434 - Discovery Client initialized at timestamp 1551187127474 with initial instances count: 1
+2019-02-26 21:18:48,330 [main] WARN  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:121 - No URLs will be polled as dynamic configuration sources.
+2019-02-26 21:18:48,330 [main] INFO  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-02-26 21:18:48,337 [main] INFO  [com.netflix.config.DynamicPropertyFactory] DynamicPropertyFactory.java:281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@f4d642d
+2019-02-26 21:18:48,483 [main] WARN  [o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext] AbstractApplicationContext.java:551 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'documentationPluginsBootstrapper' defined in URL [jar:file:/E:/Maven/repo/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/plugins/DocumentationPluginsBootstrapper.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/E:/Maven/repo/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'endpointHandlerMapping' defined in class path resource [org/springframework/boot/actuate/autoconfigure/EndpointWebMvcManagementContextConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping]: Factory method 'endpointHandlerMapping' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mvcEndpoints' defined in class path resource [org/springframework/boot/actuate/autoconfigure/EndpointWebMvcManagementContextConfiguration.class]: Invocation of init method failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'environmentMvcEndpoint' defined in class path resource [org/springframework/boot/actuate/autoconfigure/EndpointWebMvcManagementContextConfiguration.class]: Unsatisfied dependency expressed through method 'environmentMvcEndpoint' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.actuate.autoconfigure.EndpointAutoConfiguration': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.autoconfigure.EndpointAutoConfiguration$$EnhancerBySpringCGLIB$$506fc694]: Constructor threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.actuate.autoconfigure.HealthIndicatorAutoConfiguration$DataSourcesHealthIndicatorConfiguration': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.autoconfigure.HealthIndicatorAutoConfiguration$DataSourcesHealthIndicatorConfiguration$$EnhancerBySpringCGLIB$$7b52e699]: Constructor threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Cannot determine embedded database driver class for database type NONE. If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (the profiles "prd" are currently active).
+2019-02-26 21:18:48,489 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:866 - Shutting down DiscoveryClient ...
+2019-02-26 21:18:48,493 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:898 - Unregistering ...
+2019-02-26 21:18:48,500 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:900 - DiscoveryClient_RABBIT-GATEWAY/192.168.1.35:9199 - deregister  status: 404
+2019-02-26 21:18:48,506 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:887 - Completed shut down of DiscoveryClient
+2019-02-26 21:18:48,510 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:180 - Stopping service [Tomcat]
+2019-02-26 21:18:48,542 [main] ERROR [o.s.b.diagnostics.LoggingFailureAnalysisReporter] LoggingFailureAnalysisReporter.java:42 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Cannot determine embedded database driver class for database type NONE
+
+Action:
+
+If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (the profiles "prd" are currently active).
+
+2019-02-26 21:20:18,302 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:347 - Initializing Eureka in region us-east-1
+2019-02-26 21:20:18,422 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:70 - Using JSON encoding codec LegacyJacksonJson
+2019-02-26 21:20:18,422 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:71 - Using JSON decoding codec LegacyJacksonJson
+2019-02-26 21:20:18,618 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:80 - Using XML encoding codec XStreamXml
+2019-02-26 21:20:18,618 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:81 - Using XML decoding codec XStreamXml
+2019-02-26 21:20:19,102 [main] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-02-26 21:20:19,225 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:934 - Disable delta property : false
+2019-02-26 21:20:19,225 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:935 - Single vip registry refresh property : null
+2019-02-26 21:20:19,225 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:936 - Force full registry fetch : false
+2019-02-26 21:20:19,225 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:937 - Application is null : false
+2019-02-26 21:20:19,226 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:938 - Registered Applications size is zero : true
+2019-02-26 21:20:19,226 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:940 - Application version is -1: true
+2019-02-26 21:20:19,226 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1023 - Getting all instance registry info from the eureka server
+2019-02-26 21:20:19,543 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1032 - The response status is 200
+2019-02-26 21:20:19,545 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1305 - Not registering with Eureka server per configuration
+2019-02-26 21:20:19,549 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:434 - Discovery Client initialized at timestamp 1551187219549 with initial instances count: 1
+2019-02-26 21:20:20,503 [main] INFO  [com.rabbit.gateway.RabbitGatewayApplication] SpringApplication.java:597 - The following profiles are active: prd
+2019-02-26 21:20:21,627 [main] WARN  [o.s.c.a.ClassPathScanningCandidateComponentProvider] ClassPathMapperScanner.java:166 - No MyBatis mapper was found in '[com.rabbit.feign.ucenter, com.rabbit.gateway]' package. Please check your configuration.
+2019-02-26 21:20:23,388 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:180 - Starting service [Tomcat]
+2019-02-26 21:20:23,388 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:180 - Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-02-26 21:20:23,630 [localhost-startStop-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:180 - Initializing Spring embedded WebApplicationContext
+2019-02-26 21:20:25,590 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:347 - Initializing Eureka in region us-east-1
+2019-02-26 21:20:25,594 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:70 - Using JSON encoding codec LegacyJacksonJson
+2019-02-26 21:20:25,594 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:71 - Using JSON decoding codec LegacyJacksonJson
+2019-02-26 21:20:25,594 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:80 - Using XML encoding codec XStreamXml
+2019-02-26 21:20:25,594 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:81 - Using XML decoding codec XStreamXml
+2019-02-26 21:20:25,703 [main] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-02-26 21:20:25,705 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:934 - Disable delta property : false
+2019-02-26 21:20:25,705 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:935 - Single vip registry refresh property : null
+2019-02-26 21:20:25,705 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:936 - Force full registry fetch : false
+2019-02-26 21:20:25,706 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:937 - Application is null : false
+2019-02-26 21:20:25,706 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:938 - Registered Applications size is zero : true
+2019-02-26 21:20:25,706 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:940 - Application version is -1: true
+2019-02-26 21:20:25,706 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1023 - Getting all instance registry info from the eureka server
+2019-02-26 21:20:25,712 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1032 - The response status is 200
+2019-02-26 21:20:25,713 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1258 - Starting heartbeat executor: renew interval is: 30
+2019-02-26 21:20:25,715 [main] INFO  [com.netflix.discovery.InstanceInfoReplicator] InstanceInfoReplicator.java:59 - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-02-26 21:20:25,717 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:434 - Discovery Client initialized at timestamp 1551187225717 with initial instances count: 1
+2019-02-26 21:20:26,666 [main] WARN  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:121 - No URLs will be polled as dynamic configuration sources.
+2019-02-26 21:20:26,666 [main] INFO  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-02-26 21:20:26,678 [main] INFO  [com.netflix.config.DynamicPropertyFactory] DynamicPropertyFactory.java:281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@60ad16d0
+2019-02-26 21:20:26,851 [main] WARN  [o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext] AbstractApplicationContext.java:551 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'documentationPluginsBootstrapper' defined in URL [jar:file:/E:/Maven/repo/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/plugins/DocumentationPluginsBootstrapper.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/E:/Maven/repo/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'endpointHandlerMapping' defined in class path resource [org/springframework/boot/actuate/autoconfigure/EndpointWebMvcManagementContextConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping]: Factory method 'endpointHandlerMapping' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mvcEndpoints' defined in class path resource [org/springframework/boot/actuate/autoconfigure/EndpointWebMvcManagementContextConfiguration.class]: Invocation of init method failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'environmentMvcEndpoint' defined in class path resource [org/springframework/boot/actuate/autoconfigure/EndpointWebMvcManagementContextConfiguration.class]: Unsatisfied dependency expressed through method 'environmentMvcEndpoint' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.actuate.autoconfigure.EndpointAutoConfiguration': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.autoconfigure.EndpointAutoConfiguration$$EnhancerBySpringCGLIB$$59c14eb2]: Constructor threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.actuate.autoconfigure.HealthIndicatorAutoConfiguration$DataSourcesHealthIndicatorConfiguration': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.autoconfigure.HealthIndicatorAutoConfiguration$DataSourcesHealthIndicatorConfiguration$$EnhancerBySpringCGLIB$$84a46eb7]: Constructor threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Cannot determine embedded database driver class for database type NONE. If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (the profiles "prd" are currently active).
+2019-02-26 21:20:26,858 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:866 - Shutting down DiscoveryClient ...
+2019-02-26 21:20:26,864 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:898 - Unregistering ...
+2019-02-26 21:20:26,872 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:900 - DiscoveryClient_RABBIT-GATEWAY/192.168.1.35:9199 - deregister  status: 404
+2019-02-26 21:20:26,879 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:887 - Completed shut down of DiscoveryClient
+2019-02-26 21:20:26,883 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:180 - Stopping service [Tomcat]
+2019-02-26 21:20:26,919 [main] ERROR [o.s.b.diagnostics.LoggingFailureAnalysisReporter] LoggingFailureAnalysisReporter.java:42 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Cannot determine embedded database driver class for database type NONE
+
+Action:
+
+If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (the profiles "prd" are currently active).
+
+2019-02-26 21:21:01,360 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:347 - Initializing Eureka in region us-east-1
+2019-02-26 21:21:01,490 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:70 - Using JSON encoding codec LegacyJacksonJson
+2019-02-26 21:21:01,491 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:71 - Using JSON decoding codec LegacyJacksonJson
+2019-02-26 21:21:01,681 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:80 - Using XML encoding codec XStreamXml
+2019-02-26 21:21:01,681 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:81 - Using XML decoding codec XStreamXml
+2019-02-26 21:21:02,235 [main] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-02-26 21:21:02,372 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:934 - Disable delta property : false
+2019-02-26 21:21:02,372 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:935 - Single vip registry refresh property : null
+2019-02-26 21:21:02,373 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:936 - Force full registry fetch : false
+2019-02-26 21:21:02,373 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:937 - Application is null : false
+2019-02-26 21:21:02,374 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:938 - Registered Applications size is zero : true
+2019-02-26 21:21:02,374 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:940 - Application version is -1: true
+2019-02-26 21:21:02,374 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1023 - Getting all instance registry info from the eureka server
+2019-02-26 21:21:02,718 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1032 - The response status is 200
+2019-02-26 21:21:02,720 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1305 - Not registering with Eureka server per configuration
+2019-02-26 21:21:02,725 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:434 - Discovery Client initialized at timestamp 1551187262724 with initial instances count: 1
+2019-02-26 21:21:03,683 [main] INFO  [com.rabbit.gateway.RabbitGatewayApplication] SpringApplication.java:597 - The following profiles are active: prd
+2019-02-26 21:21:04,835 [main] WARN  [o.s.c.a.ClassPathScanningCandidateComponentProvider] ClassPathMapperScanner.java:166 - No MyBatis mapper was found in '[com.rabbit.feign.ucenter, com.rabbit.gateway]' package. Please check your configuration.
+2019-02-26 21:21:06,617 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:180 - Starting service [Tomcat]
+2019-02-26 21:21:06,618 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:180 - Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-02-26 21:21:06,856 [localhost-startStop-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:180 - Initializing Spring embedded WebApplicationContext
+2019-02-26 21:21:08,560 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:347 - Initializing Eureka in region us-east-1
+2019-02-26 21:21:08,562 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:70 - Using JSON encoding codec LegacyJacksonJson
+2019-02-26 21:21:08,563 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:71 - Using JSON decoding codec LegacyJacksonJson
+2019-02-26 21:21:08,563 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:80 - Using XML encoding codec XStreamXml
+2019-02-26 21:21:08,563 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:81 - Using XML decoding codec XStreamXml
+2019-02-26 21:21:08,663 [main] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-02-26 21:21:08,665 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:934 - Disable delta property : false
+2019-02-26 21:21:08,665 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:935 - Single vip registry refresh property : null
+2019-02-26 21:21:08,665 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:936 - Force full registry fetch : false
+2019-02-26 21:21:08,665 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:937 - Application is null : false
+2019-02-26 21:21:08,666 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:938 - Registered Applications size is zero : true
+2019-02-26 21:21:08,666 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:940 - Application version is -1: true
+2019-02-26 21:21:08,666 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1023 - Getting all instance registry info from the eureka server
+2019-02-26 21:21:08,676 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1032 - The response status is 200
+2019-02-26 21:21:08,677 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1258 - Starting heartbeat executor: renew interval is: 30
+2019-02-26 21:21:08,680 [main] INFO  [com.netflix.discovery.InstanceInfoReplicator] InstanceInfoReplicator.java:59 - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-02-26 21:21:08,682 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:434 - Discovery Client initialized at timestamp 1551187268682 with initial instances count: 1
+2019-02-26 21:21:09,545 [main] WARN  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:121 - No URLs will be polled as dynamic configuration sources.
+2019-02-26 21:21:09,546 [main] INFO  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-02-26 21:21:09,552 [main] INFO  [com.netflix.config.DynamicPropertyFactory] DynamicPropertyFactory.java:281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@7afd1cfa
+2019-02-26 21:21:09,720 [main] WARN  [o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext] AbstractApplicationContext.java:551 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'documentationPluginsBootstrapper' defined in URL [jar:file:/E:/Maven/repo/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/plugins/DocumentationPluginsBootstrapper.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/E:/Maven/repo/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'endpointHandlerMapping' defined in class path resource [org/springframework/boot/actuate/autoconfigure/EndpointWebMvcManagementContextConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping]: Factory method 'endpointHandlerMapping' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mvcEndpoints' defined in class path resource [org/springframework/boot/actuate/autoconfigure/EndpointWebMvcManagementContextConfiguration.class]: Invocation of init method failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'environmentMvcEndpoint' defined in class path resource [org/springframework/boot/actuate/autoconfigure/EndpointWebMvcManagementContextConfiguration.class]: Unsatisfied dependency expressed through method 'environmentMvcEndpoint' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.actuate.autoconfigure.EndpointAutoConfiguration': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.autoconfigure.EndpointAutoConfiguration$$EnhancerBySpringCGLIB$$9b807edd]: Constructor threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.actuate.autoconfigure.HealthIndicatorAutoConfiguration$DataSourcesHealthIndicatorConfiguration': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.autoconfigure.HealthIndicatorAutoConfiguration$DataSourcesHealthIndicatorConfiguration$$EnhancerBySpringCGLIB$$c6639ee2]: Constructor threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Cannot determine embedded database driver class for database type NONE. If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (the profiles "prd" are currently active).
+2019-02-26 21:21:09,726 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:866 - Shutting down DiscoveryClient ...
+2019-02-26 21:21:09,729 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:898 - Unregistering ...
+2019-02-26 21:21:09,736 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:900 - DiscoveryClient_RABBIT-GATEWAY/192.168.1.35:9199 - deregister  status: 404
+2019-02-26 21:21:09,743 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:887 - Completed shut down of DiscoveryClient
+2019-02-26 21:21:09,747 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:180 - Stopping service [Tomcat]
+2019-02-26 21:21:09,783 [main] ERROR [o.s.b.diagnostics.LoggingFailureAnalysisReporter] LoggingFailureAnalysisReporter.java:42 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Cannot determine embedded database driver class for database type NONE
+
+Action:
+
+If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (the profiles "prd" are currently active).
+
+2019-02-26 21:23:00,213 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:347 - Initializing Eureka in region us-east-1
+2019-02-26 21:23:00,340 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:70 - Using JSON encoding codec LegacyJacksonJson
+2019-02-26 21:23:00,341 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:71 - Using JSON decoding codec LegacyJacksonJson
+2019-02-26 21:23:00,541 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:80 - Using XML encoding codec XStreamXml
+2019-02-26 21:23:00,541 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:81 - Using XML decoding codec XStreamXml
+2019-02-26 21:23:01,050 [main] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-02-26 21:23:01,187 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:934 - Disable delta property : false
+2019-02-26 21:23:01,188 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:935 - Single vip registry refresh property : null
+2019-02-26 21:23:01,188 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:936 - Force full registry fetch : false
+2019-02-26 21:23:01,188 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:937 - Application is null : false
+2019-02-26 21:23:01,188 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:938 - Registered Applications size is zero : true
+2019-02-26 21:23:01,189 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:940 - Application version is -1: true
+2019-02-26 21:23:01,189 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1023 - Getting all instance registry info from the eureka server
+2019-02-26 21:23:01,523 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1032 - The response status is 200
+2019-02-26 21:23:01,525 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1305 - Not registering with Eureka server per configuration
+2019-02-26 21:23:01,540 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:434 - Discovery Client initialized at timestamp 1551187381539 with initial instances count: 1
+2019-02-26 21:23:02,476 [main] INFO  [com.rabbit.gateway.RabbitGatewayApplication] SpringApplication.java:597 - The following profiles are active: prd
+2019-02-26 21:23:03,618 [main] WARN  [o.s.c.a.ClassPathScanningCandidateComponentProvider] ClassPathMapperScanner.java:166 - No MyBatis mapper was found in '[com.rabbit.feign.ucenter, com.rabbit.gateway]' package. Please check your configuration.
+2019-02-26 21:23:05,411 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:180 - Starting service [Tomcat]
+2019-02-26 21:23:05,412 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:180 - Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-02-26 21:23:05,630 [localhost-startStop-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:180 - Initializing Spring embedded WebApplicationContext
+2019-02-26 21:23:07,301 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:347 - Initializing Eureka in region us-east-1
+2019-02-26 21:23:07,304 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:70 - Using JSON encoding codec LegacyJacksonJson
+2019-02-26 21:23:07,304 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:71 - Using JSON decoding codec LegacyJacksonJson
+2019-02-26 21:23:07,305 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:80 - Using XML encoding codec XStreamXml
+2019-02-26 21:23:07,305 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:81 - Using XML decoding codec XStreamXml
+2019-02-26 21:23:07,402 [main] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-02-26 21:23:07,403 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:934 - Disable delta property : false
+2019-02-26 21:23:07,403 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:935 - Single vip registry refresh property : null
+2019-02-26 21:23:07,403 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:936 - Force full registry fetch : false
+2019-02-26 21:23:07,404 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:937 - Application is null : false
+2019-02-26 21:23:07,404 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:938 - Registered Applications size is zero : true
+2019-02-26 21:23:07,404 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:940 - Application version is -1: true
+2019-02-26 21:23:07,404 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1023 - Getting all instance registry info from the eureka server
+2019-02-26 21:23:07,412 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1032 - The response status is 200
+2019-02-26 21:23:07,413 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1258 - Starting heartbeat executor: renew interval is: 30
+2019-02-26 21:23:07,416 [main] INFO  [com.netflix.discovery.InstanceInfoReplicator] InstanceInfoReplicator.java:59 - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-02-26 21:23:07,418 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:434 - Discovery Client initialized at timestamp 1551187387418 with initial instances count: 1
+2019-02-26 21:23:08,287 [main] WARN  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:121 - No URLs will be polled as dynamic configuration sources.
+2019-02-26 21:23:08,287 [main] INFO  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-02-26 21:23:08,293 [main] INFO  [com.netflix.config.DynamicPropertyFactory] DynamicPropertyFactory.java:281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@3df57590
+2019-02-26 21:23:08,437 [main] WARN  [o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext] AbstractApplicationContext.java:551 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'documentationPluginsBootstrapper' defined in URL [jar:file:/E:/Maven/repo/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/plugins/DocumentationPluginsBootstrapper.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/E:/Maven/repo/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'endpointHandlerMapping' defined in class path resource [org/springframework/boot/actuate/autoconfigure/EndpointWebMvcManagementContextConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping]: Factory method 'endpointHandlerMapping' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mvcEndpoints' defined in class path resource [org/springframework/boot/actuate/autoconfigure/EndpointWebMvcManagementContextConfiguration.class]: Invocation of init method failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'environmentMvcEndpoint' defined in class path resource [org/springframework/boot/actuate/autoconfigure/EndpointWebMvcManagementContextConfiguration.class]: Unsatisfied dependency expressed through method 'environmentMvcEndpoint' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.actuate.autoconfigure.EndpointAutoConfiguration': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.autoconfigure.EndpointAutoConfiguration$$EnhancerBySpringCGLIB$$60cd0a73]: Constructor threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.actuate.autoconfigure.HealthIndicatorAutoConfiguration$DataSourcesHealthIndicatorConfiguration': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.autoconfigure.HealthIndicatorAutoConfiguration$DataSourcesHealthIndicatorConfiguration$$EnhancerBySpringCGLIB$$8bb02a78]: Constructor threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Cannot determine embedded database driver class for database type NONE. If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (the profiles "prd" are currently active).
+2019-02-26 21:23:08,443 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:866 - Shutting down DiscoveryClient ...
+2019-02-26 21:23:08,446 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:898 - Unregistering ...
+2019-02-26 21:23:08,454 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:900 - DiscoveryClient_RABBIT-GATEWAY/192.168.1.35:9199 - deregister  status: 404
+2019-02-26 21:23:08,460 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:887 - Completed shut down of DiscoveryClient
+2019-02-26 21:23:08,463 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:180 - Stopping service [Tomcat]
+2019-02-26 21:23:08,493 [main] ERROR [o.s.b.diagnostics.LoggingFailureAnalysisReporter] LoggingFailureAnalysisReporter.java:42 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Cannot determine embedded database driver class for database type NONE
+
+Action:
+
+If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (the profiles "prd" are currently active).
+
+2019-02-26 21:26:20,331 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:347 - Initializing Eureka in region us-east-1
+2019-02-26 21:26:20,472 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:70 - Using JSON encoding codec LegacyJacksonJson
+2019-02-26 21:26:20,472 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:71 - Using JSON decoding codec LegacyJacksonJson
+2019-02-26 21:26:20,665 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:80 - Using XML encoding codec XStreamXml
+2019-02-26 21:26:20,665 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:81 - Using XML decoding codec XStreamXml
+2019-02-26 21:26:21,190 [main] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-02-26 21:26:21,309 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:934 - Disable delta property : false
+2019-02-26 21:26:21,309 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:935 - Single vip registry refresh property : null
+2019-02-26 21:26:21,309 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:936 - Force full registry fetch : false
+2019-02-26 21:26:21,310 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:937 - Application is null : false
+2019-02-26 21:26:21,310 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:938 - Registered Applications size is zero : true
+2019-02-26 21:26:21,310 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:940 - Application version is -1: true
+2019-02-26 21:26:21,310 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1023 - Getting all instance registry info from the eureka server
+2019-02-26 21:26:21,614 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1032 - The response status is 200
+2019-02-26 21:26:21,616 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1305 - Not registering with Eureka server per configuration
+2019-02-26 21:26:21,620 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:434 - Discovery Client initialized at timestamp 1551187581620 with initial instances count: 1
+2019-02-26 21:26:22,564 [main] INFO  [com.rabbit.gateway.RabbitGatewayApplication] SpringApplication.java:597 - The following profiles are active: prd
+2019-02-26 21:26:25,279 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:180 - Starting service [Tomcat]
+2019-02-26 21:26:25,280 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:180 - Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-02-26 21:26:25,516 [localhost-startStop-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:180 - Initializing Spring embedded WebApplicationContext
+2019-02-26 21:26:27,190 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:347 - Initializing Eureka in region us-east-1
+2019-02-26 21:26:27,193 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:70 - Using JSON encoding codec LegacyJacksonJson
+2019-02-26 21:26:27,193 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:71 - Using JSON decoding codec LegacyJacksonJson
+2019-02-26 21:26:27,193 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:80 - Using XML encoding codec XStreamXml
+2019-02-26 21:26:27,194 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:81 - Using XML decoding codec XStreamXml
+2019-02-26 21:26:27,291 [main] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-02-26 21:26:27,292 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:934 - Disable delta property : false
+2019-02-26 21:26:27,293 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:935 - Single vip registry refresh property : null
+2019-02-26 21:26:27,293 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:936 - Force full registry fetch : false
+2019-02-26 21:26:27,293 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:937 - Application is null : false
+2019-02-26 21:26:27,293 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:938 - Registered Applications size is zero : true
+2019-02-26 21:26:27,294 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:940 - Application version is -1: true
+2019-02-26 21:26:27,294 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1023 - Getting all instance registry info from the eureka server
+2019-02-26 21:26:27,299 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1032 - The response status is 200
+2019-02-26 21:26:27,301 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1258 - Starting heartbeat executor: renew interval is: 30
+2019-02-26 21:26:27,303 [main] INFO  [com.netflix.discovery.InstanceInfoReplicator] InstanceInfoReplicator.java:59 - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-02-26 21:26:27,305 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:434 - Discovery Client initialized at timestamp 1551187587305 with initial instances count: 1
+2019-02-26 21:26:28,127 [main] WARN  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:121 - No URLs will be polled as dynamic configuration sources.
+2019-02-26 21:26:28,127 [main] INFO  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-02-26 21:26:28,133 [main] INFO  [com.netflix.config.DynamicPropertyFactory] DynamicPropertyFactory.java:281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@489eefd1
+2019-02-26 21:26:28,991 [main] INFO  [s.d.s.w.PropertySourcedRequestMappingHandlerMapping] PropertySourcedRequestMappingHandlerMapping.java:69 - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-02-26 21:26:29,234 [main] WARN  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:121 - No URLs will be polled as dynamic configuration sources.
+2019-02-26 21:26:29,234 [main] INFO  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-02-26 21:26:30,657 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:866 - Shutting down DiscoveryClient ...
+2019-02-26 21:26:30,662 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:887 - Completed shut down of DiscoveryClient
+2019-02-26 21:26:30,903 [main] WARN  [o.s.c.s.e.EurekaStarterDeprecationWarningAutoConfiguration] EurekaStarterDeprecationWarningAutoConfiguration.java:19 - spring-cloud-starter-eureka is deprecated as of Spring Cloud Netflix 1.4.0, please migrate to spring-cloud-starter-netflix-eureka
+2019-02-26 21:26:31,164 [main] WARN  [o.s.jmx.export.annotation.AnnotationMBeanExporter] MBeanExporter.java:849 - Bean with key 'routesEndpoint' has been registered as an MBean but has no exposed attributes or operations
+2019-02-26 21:26:31,178 [main] WARN  [o.s.jmx.export.annotation.AnnotationMBeanExporter] MBeanExporter.java:849 - Bean with key 'filtersEndpoint' has been registered as an MBean but has no exposed attributes or operations
+2019-02-26 21:26:31,255 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1293 - Saw local status change event StatusChangeEvent [timestamp=1551187591255, current=UP, previous=STARTING]
+2019-02-26 21:26:31,257 [DiscoveryClient-InstanceInfoReplicator-0] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:804 - DiscoveryClient_RABBIT-GATEWAY/192.168.1.35:9199: registering service...
+2019-02-26 21:26:31,311 [main] INFO  [s.d.s.web.plugins.DocumentationPluginsBootstrapper] DocumentationPluginsBootstrapper.java:160 - Context refreshed
+2019-02-26 21:26:31,315 [DiscoveryClient-InstanceInfoReplicator-0] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:813 - DiscoveryClient_RABBIT-GATEWAY/192.168.1.35:9199 - registration status: 204
+2019-02-26 21:26:31,341 [main] INFO  [s.d.s.web.plugins.DocumentationPluginsBootstrapper] DocumentationPluginsBootstrapper.java:163 - Found 1 custom documentation plugin(s)
+2019-02-26 21:26:31,410 [main] INFO  [s.d.spring.web.scanners.ApiListingReferenceScanner] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+2019-02-26 21:26:31,892 [main] INFO  [com.netflix.config.ChainedDynamicProperty] ChainedDynamicProperty.java:115 - Flipping property: rabbit-auth-server.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-02-26 21:26:31,925 [main] INFO  [com.netflix.util.concurrent.ShutdownEnabledTimer] ShutdownEnabledTimer.java:58 - Shutdown hook installed for: NFLoadBalancer-PingTimer-rabbit-auth-server
+2019-02-26 21:26:31,940 [main] INFO  [com.netflix.loadbalancer.BaseLoadBalancer] BaseLoadBalancer.java:192 - Client: rabbit-auth-server instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=rabbit-auth-server,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2019-02-26 21:26:31,951 [main] INFO  [c.n.loadbalancer.DynamicServerListLoadBalancer] DynamicServerListLoadBalancer.java:222 - Using serverListUpdater PollingServerListUpdater
+2019-02-26 21:26:31,957 [main] INFO  [c.n.loadbalancer.DynamicServerListLoadBalancer] DynamicServerListLoadBalancer.java:150 - DynamicServerListLoadBalancer for client rabbit-auth-server initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=rabbit-auth-server,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@47ab4d8a
+2019-02-26 21:26:32,123 [main] INFO  [com.netflix.config.ChainedDynamicProperty] ChainedDynamicProperty.java:115 - Flipping property: rabbit-ucenter-server.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-02-26 21:26:32,126 [main] INFO  [com.netflix.util.concurrent.ShutdownEnabledTimer] ShutdownEnabledTimer.java:58 - Shutdown hook installed for: NFLoadBalancer-PingTimer-rabbit-ucenter-server
+2019-02-26 21:26:32,126 [main] INFO  [com.netflix.loadbalancer.BaseLoadBalancer] BaseLoadBalancer.java:192 - Client: rabbit-ucenter-server instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=rabbit-ucenter-server,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2019-02-26 21:26:32,127 [main] INFO  [c.n.loadbalancer.DynamicServerListLoadBalancer] DynamicServerListLoadBalancer.java:222 - Using serverListUpdater PollingServerListUpdater
+2019-02-26 21:26:32,128 [main] INFO  [c.n.loadbalancer.DynamicServerListLoadBalancer] DynamicServerListLoadBalancer.java:150 - DynamicServerListLoadBalancer for client rabbit-ucenter-server initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=rabbit-ucenter-server,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@1f532064
+2019-02-26 21:26:32,167 [main] INFO  [com.rabbit.gateway.RabbitGatewayApplication] StartupInfoLogger.java:57 - Started RabbitGatewayApplication in 14.451 seconds (JVM running for 18.582)
+2019-02-26 21:26:40,449 [http-nio-9199-exec-2] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:180 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-02-26 21:31:27,295 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-02-26 21:31:33,189 [PollingServerListUpdater-1] INFO  [com.netflix.config.ChainedDynamicProperty] ChainedDynamicProperty.java:115 - Flipping property: rabbit-ucenter-server.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-02-26 21:36:27,297 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-02-26 21:38:33,014 [PollingServerListUpdater-0] INFO  [com.netflix.config.ChainedDynamicProperty] ChainedDynamicProperty.java:115 - Flipping property: rabbit-auth-server.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-02-26 21:38:46,550 [http-nio-9199-exec-7] WARN  [o.s.c.n.z.f.route.support.AbstractRibbonCommand] AbstractRibbonCommand.java:116 - The Hystrix timeout of 60000ms for the command rabbit-auth-server is set lower than the combination of the Ribbon read and connect timeout, 1260000ms.
+2019-02-26 21:38:47,587 [http-nio-9199-exec-11] WARN  [o.s.c.n.z.f.route.support.AbstractRibbonCommand] AbstractRibbonCommand.java:116 - The Hystrix timeout of 60000ms for the command rabbit-auth-server is set lower than the combination of the Ribbon read and connect timeout, 1260000ms.
+2019-02-26 21:38:48,454 [http-nio-9199-exec-13] WARN  [o.s.c.n.z.f.route.support.AbstractRibbonCommand] AbstractRibbonCommand.java:116 - The Hystrix timeout of 60000ms for the command rabbit-auth-server is set lower than the combination of the Ribbon read and connect timeout, 1260000ms.
+2019-02-26 21:38:56,821 [http-nio-9199-exec-14] WARN  [o.s.c.n.z.f.route.support.AbstractRibbonCommand] AbstractRibbonCommand.java:116 - The Hystrix timeout of 60000ms for the command rabbit-auth-server is set lower than the combination of the Ribbon read and connect timeout, 1260000ms.
+2019-02-26 21:39:10,561 [http-nio-9199-exec-15] WARN  [o.s.c.n.z.f.route.support.AbstractRibbonCommand] AbstractRibbonCommand.java:116 - The Hystrix timeout of 60000ms for the command rabbit-auth-server is set lower than the combination of the Ribbon read and connect timeout, 1260000ms.
+2019-02-26 21:40:39,141 [http-nio-9199-exec-17] WARN  [o.s.c.n.z.f.route.support.AbstractRibbonCommand] AbstractRibbonCommand.java:116 - The Hystrix timeout of 60000ms for the command rabbit-auth-server is set lower than the combination of the Ribbon read and connect timeout, 1260000ms.
+2019-02-26 21:40:39,171 [http-nio-9199-exec-18] WARN  [o.s.c.n.z.f.route.support.AbstractRibbonCommand] AbstractRibbonCommand.java:116 - The Hystrix timeout of 60000ms for the command rabbit-auth-server is set lower than the combination of the Ribbon read and connect timeout, 1260000ms.
+2019-02-26 21:40:39,383 [http-nio-9199-exec-19] WARN  [o.s.c.n.z.f.route.support.AbstractRibbonCommand] AbstractRibbonCommand.java:116 - The Hystrix timeout of 60000ms for the command rabbit-auth-server is set lower than the combination of the Ribbon read and connect timeout, 1260000ms.
+2019-02-26 21:40:46,167 [http-nio-9199-exec-22] WARN  [o.s.c.n.z.f.route.support.AbstractRibbonCommand] AbstractRibbonCommand.java:116 - The Hystrix timeout of 60000ms for the command rabbit-auth-server is set lower than the combination of the Ribbon read and connect timeout, 1260000ms.
+2019-02-26 21:40:46,213 [http-nio-9199-exec-23] WARN  [o.s.c.n.z.f.route.support.AbstractRibbonCommand] AbstractRibbonCommand.java:116 - The Hystrix timeout of 60000ms for the command rabbit-auth-server is set lower than the combination of the Ribbon read and connect timeout, 1260000ms.
+2019-02-26 21:40:53,337 [http-nio-9199-exec-25] WARN  [o.s.c.n.z.f.route.support.AbstractRibbonCommand] AbstractRibbonCommand.java:116 - The Hystrix timeout of 60000ms for the command rabbit-auth-server is set lower than the combination of the Ribbon read and connect timeout, 1260000ms.
+2019-02-26 21:40:53,385 [http-nio-9199-exec-27] WARN  [o.s.c.n.z.f.route.support.AbstractRibbonCommand] AbstractRibbonCommand.java:116 - The Hystrix timeout of 60000ms for the command rabbit-auth-server is set lower than the combination of the Ribbon read and connect timeout, 1260000ms.
+2019-02-26 21:41:27,299 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-02-26 21:42:15,444 [http-nio-9199-exec-28] WARN  [o.s.c.n.z.f.route.support.AbstractRibbonCommand] AbstractRibbonCommand.java:116 - The Hystrix timeout of 60000ms for the command rabbit-auth-server is set lower than the combination of the Ribbon read and connect timeout, 1260000ms.
+2019-02-26 21:42:50,320 [http-nio-9199-exec-31] WARN  [o.s.c.n.z.f.route.support.AbstractRibbonCommand] AbstractRibbonCommand.java:116 - The Hystrix timeout of 60000ms for the command rabbit-auth-server is set lower than the combination of the Ribbon read and connect timeout, 1260000ms.

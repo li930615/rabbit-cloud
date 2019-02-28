@@ -20,6 +20,9 @@ public class WebMvcConfig extends WebMvcConfigurerAdapter {
 
     @Autowired
     private CacheManager cacheManager;
+	
+	public WebMvcConfig() {
+    }
 
     public void addArgumentResolvers(List<HandlerMethodArgumentResolver> argumentResolvers){
         argumentResolvers.add(new CurrentUserArgumentResolver());

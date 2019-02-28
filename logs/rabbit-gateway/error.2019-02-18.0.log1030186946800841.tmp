@@ -1,0 +1,44 @@
+2019-02-18 21:49:11,228 [main] ERROR [o.s.b.diagnostics.LoggingFailureAnalysisReporter] LoggingFailureAnalysisReporter.java:42 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Cannot determine embedded database driver class for database type NONE
+
+Action:
+
+If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (the profiles "local" are currently active).
+
+2019-02-18 21:54:31,670 [main] ERROR [o.s.b.diagnostics.LoggingFailureAnalysisReporter] LoggingFailureAnalysisReporter.java:42 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Cannot determine embedded database driver class for database type NONE
+
+Action:
+
+If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (the profiles "local" are currently active).
+
+2019-02-18 22:14:58,557 [http-nio-9199-exec-30] ERROR [c.r.gateway.componet.fallback.AuthFallbackProvider] AuthFallbackProvider.java:54 - 调用:rabbit-auth-server 异常：Load balancer does not have available server for client: rabbit-auth-server
+2019-02-18 22:14:58,581 [http-nio-9199-exec-30] ERROR [c.r.gateway.componet.fallback.AuthFallbackProvider] AuthFallbackProvider.java:54 - 调用:rabbit-auth-server 异常：Load balancer does not have available server for client: rabbit-auth-server
+2019-02-18 22:15:00,316 [http-nio-9199-exec-47] ERROR [c.r.gateway.componet.fallback.AuthFallbackProvider] AuthFallbackProvider.java:54 - 调用:rabbit-auth-server 异常：Load balancer does not have available server for client: rabbit-auth-server
+2019-02-18 22:15:00,316 [http-nio-9199-exec-47] ERROR [c.r.gateway.componet.fallback.AuthFallbackProvider] AuthFallbackProvider.java:54 - 调用:rabbit-auth-server 异常：Load balancer does not have available server for client: rabbit-auth-server
+2019-02-18 22:15:00,868 [http-nio-9199-exec-48] ERROR [c.r.gateway.componet.fallback.AuthFallbackProvider] AuthFallbackProvider.java:54 - 调用:rabbit-auth-server 异常：Load balancer does not have available server for client: rabbit-auth-server
+2019-02-18 22:15:00,869 [http-nio-9199-exec-48] ERROR [c.r.gateway.componet.fallback.AuthFallbackProvider] AuthFallbackProvider.java:54 - 调用:rabbit-auth-server 异常：Load balancer does not have available server for client: rabbit-auth-server
+2019-02-18 22:15:01,018 [http-nio-9199-exec-31] ERROR [c.r.gateway.componet.fallback.AuthFallbackProvider] AuthFallbackProvider.java:54 - 调用:rabbit-auth-server 异常：Load balancer does not have available server for client: rabbit-auth-server
+2019-02-18 22:15:01,019 [http-nio-9199-exec-31] ERROR [c.r.gateway.componet.fallback.AuthFallbackProvider] AuthFallbackProvider.java:54 - 调用:rabbit-auth-server 异常：Load balancer does not have available server for client: rabbit-auth-server
+2019-02-18 22:15:01,163 [http-nio-9199-exec-40] ERROR [c.r.gateway.componet.fallback.AuthFallbackProvider] AuthFallbackProvider.java:54 - 调用:rabbit-auth-server 异常：Load balancer does not have available server for client: rabbit-auth-server
+2019-02-18 22:15:01,163 [http-nio-9199-exec-40] ERROR [c.r.gateway.componet.fallback.AuthFallbackProvider] AuthFallbackProvider.java:54 - 调用:rabbit-auth-server 异常：Load balancer does not have available server for client: rabbit-auth-server
+2019-02-18 22:15:01,336 [http-nio-9199-exec-41] ERROR [c.r.gateway.componet.fallback.AuthFallbackProvider] AuthFallbackProvider.java:54 - 调用:rabbit-auth-server 异常：Load balancer does not have available server for client: rabbit-auth-server
+2019-02-18 22:15:01,337 [http-nio-9199-exec-41] ERROR [c.r.gateway.componet.fallback.AuthFallbackProvider] AuthFallbackProvider.java:54 - 调用:rabbit-auth-server 异常：Load balancer does not have available server for client: rabbit-auth-server
+2019-02-18 22:15:01,482 [http-nio-9199-exec-38] ERROR [c.r.gateway.componet.fallback.AuthFallbackProvider] AuthFallbackProvider.java:54 - 调用:rabbit-auth-server 异常：Load balancer does not have available server for client: rabbit-auth-server
+2019-02-18 22:15:01,483 [http-nio-9199-exec-38] ERROR [c.r.gateway.componet.fallback.AuthFallbackProvider] AuthFallbackProvider.java:54 - 调用:rabbit-auth-server 异常：Load balancer does not have available server for client: rabbit-auth-server
+2019-02-18 22:15:01,626 [http-nio-9199-exec-44] ERROR [c.r.gateway.componet.fallback.AuthFallbackProvider] AuthFallbackProvider.java:54 - 调用:rabbit-auth-server 异常：Load balancer does not have available server for client: rabbit-auth-server
+2019-02-18 22:15:01,627 [http-nio-9199-exec-44] ERROR [c.r.gateway.componet.fallback.AuthFallbackProvider] AuthFallbackProvider.java:54 - 调用:rabbit-auth-server 异常：Load balancer does not have available server for client: rabbit-auth-server

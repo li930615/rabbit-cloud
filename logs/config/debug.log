@@ -1,0 +1,22 @@
+2019-02-26 20:32:07,365 [main] INFO  [com.rabbit.config.RabbitConfigServerApplication] SpringApplication.java:597 - The following profiles are active: native
+2019-02-26 20:32:09,004 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:180 - Starting service [Tomcat]
+2019-02-26 20:32:09,004 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:180 - Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-02-26 20:32:09,235 [localhost-startStop-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:180 - Initializing Spring embedded WebApplicationContext
+2019-02-26 20:32:09,762 [main] WARN  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:121 - No URLs will be polled as dynamic configuration sources.
+2019-02-26 20:32:09,766 [main] INFO  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-02-26 20:32:09,772 [main] WARN  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:121 - No URLs will be polled as dynamic configuration sources.
+2019-02-26 20:32:09,773 [main] INFO  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-02-26 20:32:13,153 [main] WARN  [o.s.c.s.e.EurekaStarterDeprecationWarningAutoConfiguration] EurekaStarterDeprecationWarningAutoConfiguration.java:19 - spring-cloud-starter-eureka is deprecated as of Spring Cloud Netflix 1.4.0, please migrate to spring-cloud-starter-netflix-eureka
+2019-02-26 20:32:15,503 [main] INFO  [com.rabbit.config.RabbitConfigServerApplication] StartupInfoLogger.java:57 - Started RabbitConfigServerApplication in 10.468 seconds (JVM running for 15.266)
+2019-02-26 20:34:27,491 [http-nio-9999-exec-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:180 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-02-26 21:11:48,092 [main] INFO  [com.rabbit.config.RabbitConfigServerApplication] SpringApplication.java:597 - The following profiles are active: native
+2019-02-26 21:11:49,830 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:180 - Starting service [Tomcat]
+2019-02-26 21:11:49,830 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:180 - Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-02-26 21:11:50,983 [localhost-startStop-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:180 - Initializing Spring embedded WebApplicationContext
+2019-02-26 21:11:51,492 [main] WARN  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:121 - No URLs will be polled as dynamic configuration sources.
+2019-02-26 21:11:51,492 [main] INFO  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-02-26 21:11:51,499 [main] WARN  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:121 - No URLs will be polled as dynamic configuration sources.
+2019-02-26 21:11:51,499 [main] INFO  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-02-26 21:11:53,626 [main] WARN  [o.s.c.s.e.EurekaStarterDeprecationWarningAutoConfiguration] EurekaStarterDeprecationWarningAutoConfiguration.java:19 - spring-cloud-starter-eureka is deprecated as of Spring Cloud Netflix 1.4.0, please migrate to spring-cloud-starter-netflix-eureka
+2019-02-26 21:11:55,649 [main] INFO  [com.rabbit.config.RabbitConfigServerApplication] StartupInfoLogger.java:57 - Started RabbitConfigServerApplication in 9.834 seconds (JVM running for 14.691)
+2019-02-26 21:13:33,442 [http-nio-9999-exec-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:180 - Initializing Spring FrameworkServlet 'dispatcherServlet'

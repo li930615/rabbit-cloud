@@ -27,4 +27,4 @@ eureka:
     #_关闭注册中心的保护机制，Eureka 会统计15分钟之内心跳失败的比例低于85%将会触发保护机制，不剔除服务提供者；如果关闭，服务注册中心将不可用的实例正确剔除
     enable-self-preservation: false
     #_每隔6s清理一次服务列表(当其注册表里服务因为网络或其他原因出现故障而关停时，Eureka不会剔除服务注册，而是等待其修复。这是AP的一种实现)
-    eviction-interval-timer-in-ms: 60000
+    eviction-interval-timer-in-ms: 5000

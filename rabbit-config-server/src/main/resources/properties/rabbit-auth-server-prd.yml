@@ -1,0 +1,6 @@
+server:
+  port: 9010
+
+config:
+  company: XXXX
+  copyright: XXXX

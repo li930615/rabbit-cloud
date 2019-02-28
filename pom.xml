@@ -8,7 +8,7 @@
     <version>1.0.0</version>
     <packaging>pom</packaging>
     <name>rabbit-cloud</name>
-    <description>架构师之路</description>
+    <description>准备搞一个秒杀系统</description>
     <url>暂时还没有</url>
 
     <!--SpringBoot父级依赖-->
@@ -37,6 +37,7 @@
         <java.version>1.8</java.version>
         <!--SpringCloud版本-->
         <spring-cloud.version>Edgware.SR4</spring-cloud.version>
+        <lombok.version>1.16.20</lombok.version>
     </properties>
 
     <!--自动管理依赖-->
@@ -56,6 +57,11 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-thymeleaf</artifactId>
+                <version>1.5.15.RELEASE</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
@@ -71,7 +77,7 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-config</artifactId>
         </dependency>
-        <!--文件处理器-->
+        <!--配置文件处理器-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-configuration-processor</artifactId>
@@ -82,12 +88,23 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
+        <!--Lombok-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok.version}</version>
+        </dependency>
+        <!--测试依赖-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
     <!--插件信息-->
     <build>
         <pluginManagement>
             <plugins>
-                <!--打包插件-->
                 <plugin>
                     <groupId>org.springframework.boot</groupId>
                     <artifactId>spring-boot-maven-plugin</artifactId>
@@ -100,13 +117,12 @@
                         </execution>
                     </executions>
                 </plugin>
-                <!--构建生命周期的test phase执行一个应用的单元测试-->
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-surefire-plugin</artifactId>
                     <version>2.22.0</version>
                     <configuration>
-                        <!--  不指定单元测试  -->
+                        <!-- 不指定单元测试 -->
                         <skipTests>true</skipTests>
                     </configuration>
                 </plugin>
@@ -115,21 +131,31 @@
                     <artifactId>maven-resources-plugin</artifactId>
                     <version>3.1.0</version>
                 </plugin>
-                <!--编译插件-->
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-compiler-plugin</artifactId>
                     <version>3.8.0</version>
                     <configuration>
-                        <!--源代码使用的JDK版本-->
                         <target>${java.version}</target>
-                        <!--需要生成的目标class文件的JDK版本-->
                         <source>${java.version}</source>
-                        <!--字符集编码-->
                         <encoding>UTF-8</encoding>
                     </configuration>
                 </plugin>
             </plugins>
         </pluginManagement>
     </build>
+
+    <!--Nexus私服配置-->
+    <!--<distributionManagement>-->
+        <!--<repository>-->
+            <!--<id>releases</id>-->
+            <!--<name>Nexus Release Repository</name>-->
+            <!--<url>http://121.40.137.74:8081/nexus/content/repositories/releases/</url>-->
+        <!--</repository>-->
+        <!--<snapshotRepository>-->
+            <!--<id>snapshots</id>-->
+            <!--<name>Nexus Snapshot Repository</name>-->
+            <!--<url>http://121.40.137.74:8081/nexus/content/repositories/snapshots/</url>-->
+        <!--</snapshotRepository>-->
+    <!--</distributionManagement>-->
 </project>

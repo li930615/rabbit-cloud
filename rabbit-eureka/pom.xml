@@ -29,4 +29,5 @@
             <artifactId>spring-cloud-starter-security</artifactId>
         </dependency>
     </dependencies>
+
 </project>

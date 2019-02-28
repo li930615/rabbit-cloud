@@ -1,0 +1,6 @@
+2019-02-02 22:17:51,908 [http-nio-9199-exec-5] ERROR [c.r.gateway.componet.fallback.AuthFallbackProvider] AuthFallbackProvider.java:57 - 调用:rabbit-auth-server 异常：认证授权模块不可用
+2019-02-02 22:17:51,917 [http-nio-9199-exec-5] ERROR [c.r.gateway.componet.fallback.AuthFallbackProvider] AuthFallbackProvider.java:57 - 调用:rabbit-auth-server 异常：认证授权模块不可用
+2019-02-02 22:18:37,825 [http-nio-9199-exec-9] ERROR [c.r.gateway.componet.fallback.AuthFallbackProvider] AuthFallbackProvider.java:57 - 调用:rabbit-auth-server 异常：认证授权模块不可用
+2019-02-02 22:18:37,828 [http-nio-9199-exec-9] ERROR [c.r.gateway.componet.fallback.AuthFallbackProvider] AuthFallbackProvider.java:57 - 调用:rabbit-auth-server 异常：认证授权模块不可用
+2019-02-02 22:20:49,684 [http-nio-9199-exec-15] ERROR [c.r.gateway.componet.fallback.AuthFallbackProvider] AuthFallbackProvider.java:57 - 调用:rabbit-auth-server 异常：认证授权模块不可用
+2019-02-02 22:20:49,684 [http-nio-9199-exec-15] ERROR [c.r.gateway.componet.fallback.AuthFallbackProvider] AuthFallbackProvider.java:57 - 调用:rabbit-auth-server 异常：认证授权模块不可用

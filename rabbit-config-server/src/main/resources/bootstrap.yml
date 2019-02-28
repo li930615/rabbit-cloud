@@ -10,7 +10,7 @@ spring:
     config:
       server:
         native:
-          searchLocations: classpath:/properties/prd
+          searchLocations: classpath:/properties
       fail-fast: true
 ---
 spring:
@@ -19,7 +19,6 @@ eureka:
   instance:
     prefer-ip-address: true
     instance-id: ${spring.cloud.client.ipAddress}:${server.port}
-  #   ip-address:
   client:
     serviceUrl:
       defaultZone: http://rabbit:rabbit@127.0.0.1:9300/eureka

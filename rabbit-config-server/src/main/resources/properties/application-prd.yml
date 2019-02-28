@@ -1,4 +1,4 @@
-#加密配置
+﻿#加密配置
 jasypt:
   encryptor:
     password: rabbit
@@ -11,9 +11,11 @@ server:
 spring:
   http:
     multipart:
-      max-file-size: 1000MB
-      max-request-size: 1000MB
-      enabled: true
+      enabled: true # 启用http上传处理
+      max-file-size: 500MB # 设置单个文件的最大长度
+      max-request-size: 500MB # 设置最大的请求文件的大小
+      file-size-threshold: 1MB  # 当上传文件达到1MB的时候进行磁盘写入
+      location: /  # 上传的临时目录
   redis:
     host: 127.0.0.1
     port: 6379
@@ -21,7 +23,7 @@ spring:
 #Redis cache 过期时间设置
 redis:
   cache:
-    expiration: 3601
+    expiration: 3600
 
 ribbon:
   eager-load:
@@ -31,8 +33,8 @@ ribbon:
     enable: false
   OkHttp:
     enable: true
-  ReadTimeout: 3000
-  ConnectTimeout: 60000
+  ConnectTimeout: 30000
+  ReadTimeout: 600000
 
 feign:
   hystrix:
