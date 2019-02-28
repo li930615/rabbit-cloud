@@ -54,8 +54,8 @@ public class AuthFallbackProvider implements FallbackProvider {
                     AuthFallbackProvider.log.error("调用:{} 异常：{}", AuthFallbackProvider.this.getRoute(), cause.getMessage());
                     return new ByteArrayInputStream(cause.getMessage().getBytes());
                 }
-                AuthFallbackProvider.log.error("调用:{} 异常：{}", AuthFallbackProvider.this.getRoute(), "认证授权模块不可用");
-                return new ByteArrayInputStream("认证授权模块不可用".getBytes());
+                AuthFallbackProvider.log.error("调用:{} 异常：{}", AuthFallbackProvider.this.getRoute(), AUTH_SERVICE_DISABLE);
+                return new ByteArrayInputStream(AUTH_SERVICE_DISABLE.getBytes());
             }
 
             /*和body中的内容编码一致，否则容易乱码*/

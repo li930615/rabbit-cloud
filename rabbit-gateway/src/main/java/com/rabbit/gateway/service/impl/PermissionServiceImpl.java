@@ -40,13 +40,16 @@ public class PermissionServiceImpl implements PermissionService {
     @Autowired
     private ZuulConfig zuulConfig;
 
+    /*判断是否具有登录权限*/
     public boolean ssoHasPermission(Route route, CurrentUser currentUser) {
+        //从路由中获取请求的URI
         String reqServerURI = route.getPath();
         try {
             reqServerURI = reqServerURI.substring(reqServerURI.indexOf("/", 1));
         } catch (StringIndexOutOfBoundsException e) {
             reqServerURI = "";
         }
+        //如果没有开启权限拦截，直接返回true
         if (!this.zuulConfig.permissionIntercept) {
             return true;
         }
@@ -60,7 +63,8 @@ public class PermissionServiceImpl implements PermissionService {
         if (permissionList != null) {
             for (SysPermission sysPermission : permissionList) {
                 String sysPermissionCodes = sysPermission.getCode();
-                if (!StringUtils.isNotBlank((CharSequence) sysPermissionCodes)) continue;
+                if (!StringUtils.isNotBlank(sysPermissionCodes))
+                    continue;
                 List<String> sysPermissionCodeList = Arrays.asList(sysPermissionCodes.split(","));
                 for (String sysPermissionCode : sysPermissionCodeList) {
                     String permissionURI = sysPermissionCode;

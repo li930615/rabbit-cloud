@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Configuration;
 
 /**
  * @ClassName RabbitAuthConfig
- * @Description TODO
+ * @Description 读取配置文件属性参数
  * @Author LZQ
  * @Date 2019/1/20 19:56
  **/

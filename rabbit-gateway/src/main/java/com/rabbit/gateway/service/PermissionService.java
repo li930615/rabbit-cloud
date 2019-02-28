@@ -5,7 +5,7 @@ import org.springframework.cloud.netflix.zuul.filters.Route;
 
 /**
  * @ClassName PermissionService
- * @Description TODO
+ * @Description 权限验证
  * @Author LZQ
  * @Date 2019/1/20 20:40
  **/

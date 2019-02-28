@@ -14,7 +14,7 @@ import javax.annotation.Resource;
 
 /**
  * @ClassName ZuulConfig
- * @Description TODO
+ * @Description 路由配置
  * @Author LZQ
  * @Date 2019/1/20 19:58
  **/

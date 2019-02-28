@@ -19,15 +19,16 @@ import springfox.documentation.swagger.web.SwaggerResourcesProvider;
 
 @Component
 @Primary
-public class RegistrySwaggerResourcesProvider
-        implements SwaggerResourcesProvider {
+public class RegistrySwaggerResourcesProvider implements SwaggerResourcesProvider {
 
     private final RouteLocator routeLocator;
 
+    /*构造器注入*/
     public RegistrySwaggerResourcesProvider(RouteLocator routeLocator) {
         this.routeLocator = routeLocator;
     }
 
+    /*将Swagger的相关请求加入到网关白名单中*/
     public List<SwaggerResource> get() {
         ArrayList<SwaggerResource> resources = new ArrayList<>();
         List<Route> routes = this.routeLocator.getRoutes();

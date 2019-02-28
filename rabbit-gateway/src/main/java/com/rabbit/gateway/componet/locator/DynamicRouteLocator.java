@@ -42,7 +42,6 @@ public class DynamicRouteLocator extends DiscoveryClientRouteLocator {
 
     protected LinkedHashMap<String, ZuulProperties.ZuulRoute> locateRoutes() {
         LinkedHashMap routesMap = new LinkedHashMap();
-        //从配置文件中获取路由地址迭代器
         Iterator var2 = this.zuulProperties.getRoutes().values().iterator();
 
         routesMap.putAll(super.locateRoutes());
